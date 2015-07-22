@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/amol/Downloads/How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean.html" added="2015-07-22T11:39:08Z" modified="2015-07-22T11:39:10Z" visited="2015-07-22T11:39:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-22T11:39:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/dev.doc" added="2015-07-22T16:55:41Z" modified="2015-07-22T16:57:03Z" visited="2015-07-22T16:55:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/msword"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-22T16:55:41Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-22T16:57:03Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/REDME" added="2015-07-22T19:20:30Z" modified="2015-07-22T19:23:07Z" visited="2015-07-22T19:20:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-22T19:23:07Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

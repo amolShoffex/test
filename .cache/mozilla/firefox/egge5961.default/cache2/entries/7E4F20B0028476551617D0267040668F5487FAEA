@@ -1,0 +1,364 @@
+if (!window.mraid) {document.write('\x3cdiv class="GoogleActiveViewClass" ' +'id="DfaVisibilityIdentifier_808671089"\x3e');}
+(function() {
+  var DEBUG = ''.toLowerCase() == 'true';
+  var csiStart = (+new Date);
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var publisherSideFilePath = unescape('');
+  if(publisherSideFilePath == '') {
+    publisherSideFilePath = '/doubleclick/DARTIframe.html';
+  } else if (publisherSideFilePath.charAt(publisherSideFilePath.length - 1) == '/') {
+    publisherSideFilePath += 'DARTIframe.html';
+  }
+  var bookingTimeMetaData = {
+  };
+
+  var runtimeMetaData = {
+  };
+
+  var exitUrlPatternMacroValues = {
+  };
+  var macroParser = function (macroName, value) {
+    return (value.indexOf(macroName) < 0) ? value : '';
+  };
+  var adServerData = {
+    eventReportingUrl: 'http://ad.doubleclick.net/activity;src=4954043;met=1;v=1;pid=120451192;aid=293300532;ko=0;cid=64165577;rid=64045677;rv=1;',
+    clickUrl: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuyVDOJzKwEdXtJH9xap5b-sYvkRDGQROzlWcOUmoWAdi_3zZb2wJ2vvcd4-cISyi5T8alhe89XCfXD7K1LIlgxdhxHJ1fMHxSBPLk8gGrx2Y0z3yc3mJ6673wAqUHFys9yhDGPcOqi&sig=Cg0ArKJSzD0738rOdtElEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCg8C1TuKvVYuqBcOTogPt5In4B_7pr9cDluv3s2TAjbcBEAEgAGDl6uaDvA6CARdjYS1wdWItNTc4NzU5MjQ4Mzc2Njc2MMgBCeACAKgDAZgEAKoE4gFP0FRKTFT7k5iVKZB8NOBM0EQkQMTTUEqdzrxf-VX4uj4vXlr8X-PsuSffAy1txOhZJa-G53PKHp-s7Skh2fM59cqnRKAKY-BRbe3xrjr5Pd6YVdJXGgxZOeS549s9IjfEBnhFpdoguaygQf4M0h5c3lgOaTVOlvl_eG-0jYX4TFfoEGd5K3wWQYOgYXQGp1G1eTaITpWcb7dkJnl03wrVM_DXK0wN5_VA1YLuSrjbE8CkMqXWixY0VNPSyQPw7F2REh-x2BGnoXbmM6cac04rQMQoIYbSOZdH6aTCzXEeZoXb4AQBgAbjv6vCiIb3oQ2gBiHYBwA%26num%3D1%26sig%3DAOD64_3nFAJn6Rg-owFWcTdTD3yA1KkLDA%26client%3Dca-pub-5787592483766760%26adurl%3D',
+    clickUrlTimesToEscape: '',
+    impressionUrl: '',
+    geoData: 'ct=IN&st=&city=7252&dma=0&zp=&bw=3',
+    siteName: 'N209002.279382BIDMANAGER_DFASITE',
+    siteId: '2129387',
+    adId: '0',
+    exitSuffix: '',
+    buyId: '8864452',
+    creativeId: '64165577',
+    placementId: '120451192',
+    advertiserId: '4954043',
+    keyValueOrdinal: '0',
+    renderingVersion: '1',
+    renderingId: '64045677',
+    randomNumber: '808671089',
+    dynamicData: '',
+    stringReportingUrl: 'http://ad.doubleclick.net/activity;src=4954043;stragg=1;v=1;pid=120451192;aid=293300532;ko=0;cid=64165577;rid=64045677;rv=1;rn=808671089;',
+    urlToGetKeywordsFor: '%LivePreviewSiteUrl',
+    bookingTimeMetaData: bookingTimeMetaData,
+    generatedAdSlot: false,
+    exitUrlPatternMacroValues: exitUrlPatternMacroValues,
+    renderingEnvironment: ('' == '1' ||
+        window['mraid']) ? 'IN_APP' : 'BROWSER',
+    placementDimensions: {
+      'w': '160',
+      'h': '600'
+    },
+    swiffyRuntimeUrl: 'https://www.gstatic.com/swiffy/v7.1.1/runtime.js',
+    tag: {
+      adContainerElementId: macroParser('ad_container_id', ''),
+      hideObjects: '',
+      top: '',
+      left: '',
+      zIndex: '',
+      duration: '',
+      wmode: '',
+      preferHtml5Artwork: '' == 'true',
+      adSenseKeywords: '',
+      adSenseLatitude: '',
+      adSenseLongitude: '',
+      publisherSideFilePath: publisherSideFilePath,
+      runtimeMetaData: runtimeMetaData,
+      lidarEnabled: false,
+      expansionMode: '',
+      renderFloatInplace: ''.toLowerCase() == 'true',
+      tryToWriteHtmlInline: ''.toLowerCase() == 'true'
+    }
+  };
+
+  var scheme;
+  if ('http' == 'http' || 'http' == 'https') {
+    // DCM scheme macro usage.
+    scheme = 'http' + ':';
+  } else if ('%%SCHEME%%' == 'http' || '%%SCHEME%%' == 'https') {
+    // XFP scheme macro usage.
+    scheme = '%%SCHEME%%' + ':';
+  } else {
+    // preview usage.
+    scheme = location.protocol;
+  }
+  var staticResourceMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var creativeMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var backupImageUrl = '/4954043/City-Corporation-160x600.jpg';
+  if (!/^https?:/.test(backupImageUrl)) {
+    backupImageUrl = creativeMediaServer + backupImageUrl;
+  }
+  var backupImage = {
+    exitUrl: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuyVDOJzKwEdXtJH9xap5b-sYvkRDGQROzlWcOUmoWAdi_3zZb2wJ2vvcd4-cISyi5T8alhe89XCfXD7K1LIlgxdhxHJ1fMHxSBPLk8gGrx2Y0z3yc3mJ6673wAqUHFys9yhDGPcOqi&sig=Cg0ArKJSzD0738rOdtElEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCg8C1TuKvVYuqBcOTogPt5In4B_7pr9cDluv3s2TAjbcBEAEgAGDl6uaDvA6CARdjYS1wdWItNTc4NzU5MjQ4Mzc2Njc2MMgBCeACAKgDAZgEAKoE4gFP0FRKTFT7k5iVKZB8NOBM0EQkQMTTUEqdzrxf-VX4uj4vXlr8X-PsuSffAy1txOhZJa-G53PKHp-s7Skh2fM59cqnRKAKY-BRbe3xrjr5Pd6YVdJXGgxZOeS549s9IjfEBnhFpdoguaygQf4M0h5c3lgOaTVOlvl_eG-0jYX4TFfoEGd5K3wWQYOgYXQGp1G1eTaITpWcb7dkJnl03wrVM_DXK0wN5_VA1YLuSrjbE8CkMqXWixY0VNPSyQPw7F2REh-x2BGnoXbmM6cac04rQMQoIYbSOZdH6aTCzXEeZoXb4AQBgAbjv6vCiIb3oQ2gBiHYBwA%26num%3D1%26sig%3DAOD64_3nFAJn6Rg-owFWcTdTD3yA1KkLDA%26client%3Dca-pub-5787592483766760%26adurl%3Dhttp://gohf.magicbricks.com/project/future-towers%253Futm_source%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526utm_medium%253DCPC%2526utm_campaign%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526mbtracker%253DGoogle_DBM_GOHF%2526cCode%253DGoogle_DBM_GOHF%2526campaignCode%253DGoogle_DBM_GOHF_City_Coporation_Anamora',
+    target: '_blank',
+    imageUrl: backupImageUrl,
+    width: '160',
+    height: '600',
+    backupDisplayActivityUrl: '',
+    thirdPartyBackupImpressionUrl: ''
+  };
+
+  var versionPrefix = DEBUG ? 'db_' : '';
+  var templateVersion = '200_90';
+  var renderingScriptPath = '/879366';
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  rendererDisplayType += 'html_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+  var renderingLibrary = renderingScriptPath + '/' + rendererName + '_rendering_lib_' +
+      versionPrefix + templateVersion + '.js';
+  // Adserver has a logic to detect media files and prepend host name.
+  if (!/^https?:/.test(renderingLibrary)) {
+    renderingLibrary = staticResourceMediaServer + renderingLibrary;
+  }
+
+  var adCreativeDefinitions = {};
+
+  var creativeId = '64165577';
+  var adId = adCreativeDefinitions[adServerData.adId] ? adServerData.adId : 0;
+  // The unique creative is identified by combination of creative id and ad id.
+  // When the same creative(same creative id and same ad id) is served on the page more
+  // than once then they will share the creative definition yet there will be
+  // multiple instances of 'adResponses'.s
+  var creativeKey = [creativeId, adId].join('_');
+  var creativeDef = adCreativeDefinitions[adServerData.adId] ?
+      adCreativeDefinitions[adServerData.adId] :
+      '[%DEFAULT_PLCR_PATH%]';
+  if(!/^https?:/.test(creativeDef) && creativeDef.substring(0, 2) != '//') {
+    creativeDef = creativeMediaServer + creativeDef;
+  }
+    creativeDef = null;
+  studioObjects['creativeCount'] = studioObjects['creativeCount'] || 0;
+  var creativeDto = {
+    id: creativeId,
+    uniqueId: creativeId + '_' + studioObjects['creativeCount']++,
+    templateVersion: templateVersion,
+    adServerData: adServerData,
+    isPreviewEnvironment: '%PreviewMode' == 'true',
+    hasFlashAsset: true,
+    hasHtmlAsset: true,
+    requiresCss3Animations: false,
+    flashVersion: '9',
+    httpsMediaServer: 'https://s0.2mdn.net',
+    httpMediaServer: 'http://s0.2mdn.net',
+    renderingScriptPath: renderingScriptPath,
+    renderingLibrary: renderingLibrary,
+    rendererName: rendererName,
+    creativeDefinitionUrl: creativeDef,
+    creativeKey: creativeKey,
+    thirdPartyImpressionUrls: [''],
+    thirdPartyArtworkImpressionUrl: '',
+    breakoutToTop: false,
+    dimensions: {
+      width: '160px',
+      height: '600px'
+    },
+    backupImage: backupImage,
+    csiStart: csiStart,
+    csiAdRespTime: csiStart - (parseFloat('') || 0),
+    csiEvents: {},
+    hasModernizrFeatureChecks: true,
+    html5FeatureChecks: [
+      'Modernizr.canvas',
+      'Modernizr.rgba',
+      'Modernizr.canvastext'
+    ],
+    hasSwiffyHtmlAsset: true
+  };
+
+  var inGdnIframe = window['IN_ADSENSE_IFRAME'] || false;
+  var inYahooSecureIframe = window.Y && Y.SandBox && Y.SandBox.vendor;
+  var inWinLiveIframe = false;
+  try {
+    inWinLiveIframe = !!window.$WLXRmAd;
+  } catch(e) {}
+  var inSafeFrame = window.$sf && window.$sf.ext;
+  var isMsnAjaxIframe = (typeof(inDapMgrIf) != 'undefined' && inDapMgrIf);
+  var breakoutIframe = ''.toLowerCase();
+  var shouldBreakout = (((false ||
+                          false) &&
+                         !inGdnIframe &&
+                         !inYahooSecureIframe &&
+                         !inSafeFrame &&
+                         !inWinLiveIframe) ||
+                        (true && breakoutIframe == 'true')) &&
+                       self != top &&
+                       !creativeDto.isPreviewEnvironment &&
+                       breakoutIframe != 'false';
+
+  if (adServerData.tag.adContainerElementId == '' &&
+      (true || false ||
+         adServerData.tag.renderFloatInplace)) {
+    var containerId = ['creative', creativeDto.uniqueId].join('_');
+    var divHtml = ['<div id="', containerId, '"></div>'].join('');
+    document.write(divHtml);
+    adServerData.tag.adContainerElementId = containerId;
+    adServerData.generatedAdSlot = true;
+  }
+  var creatives = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creative = creatives[creativeKey] = creatives[creativeKey] || {};
+  var adResponses = creative['adResponses'] = creative['adResponses'] || [];
+  creative['shouldBreakout'] = creative['shouldBreakout'] || shouldBreakout;
+  var iframeBusterLibrary = renderingScriptPath + '/iframe_buster_' +
+      versionPrefix + templateVersion + '.js';
+  if(!/^https?:/.test(iframeBusterLibrary)) {
+    iframeBusterLibrary = staticResourceMediaServer + iframeBusterLibrary;
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  adResponses.push({
+    creativeDto: creativeDto
+  });
+    var modernizrLibrary = '/ads/studio/cached_libs/modernizr_2.8.3_ec185bb44fe5e6bf7455d6e8ef37ed0e_no-classes.js';
+    if(!/^https?:/.test(modernizrLibrary)) {
+      modernizrLibrary = staticResourceMediaServer + modernizrLibrary;
+    }
+    document.write('<scr' + 'ipt type="text/javascript" src="' + modernizrLibrary + '"></scr' + 'ipt>');
+  if (shouldBreakout) {
+    if (versionedLibrary['breakout']) {
+      versionedLibrary['breakout']();
+    } else if (!versionedLibrary['breakoutLoading']) {
+      versionedLibrary['breakoutLoading'] = true;
+      document.write('<scr' + 'ipt type="text/javascript" src="' + iframeBusterLibrary + '" async="async"></scr' + 'ipt>');
+    }
+  } else if (typedLibrary['bootstrap'] && creative['creativeDefinition']) {
+    typedLibrary['bootstrap']();
+  } else {
+    if (!typedLibrary['loading']) {
+      typedLibrary['loading'] = true;
+      creativeDto.csiEvents['gb'] = (+new Date);
+      document.write('<scr' + 'ipt type="text/javascript" src="' + renderingLibrary + '"' + (adServerData.tag.tryToWriteHtmlInline ? '' : ' async="async"') + '></scr' + 'ipt>');
+    }
+  }
+  if (isMsnAjaxIframe) {
+    window.setTimeout("document.close();", 1000);
+  }
+  (function() {
+  var creativeDefinition = {
+    customScriptUrl: '',
+    isDynamic: false,
+    delayedImpression: false,
+    standardEventIds: {
+      HTML5_CREATIVE_IMPRESSION: '871060'
+    },
+    exitEvents: [
+      {
+        name: 'clickTAG',
+        reportingId: '',
+        url: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuyVDOJzKwEdXtJH9xap5b-sYvkRDGQROzlWcOUmoWAdi_3zZb2wJ2vvcd4-cISyi5T8alhe89XCfXD7K1LIlgxdhxHJ1fMHxSBPLk8gGrx2Y0z3yc3mJ6673wAqUHFys9yhDGPcOqi&sig=Cg0ArKJSzD0738rOdtElEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCg8C1TuKvVYuqBcOTogPt5In4B_7pr9cDluv3s2TAjbcBEAEgAGDl6uaDvA6CARdjYS1wdWItNTc4NzU5MjQ4Mzc2Njc2MMgBCeACAKgDAZgEAKoE4gFP0FRKTFT7k5iVKZB8NOBM0EQkQMTTUEqdzrxf-VX4uj4vXlr8X-PsuSffAy1txOhZJa-G53PKHp-s7Skh2fM59cqnRKAKY-BRbe3xrjr5Pd6YVdJXGgxZOeS549s9IjfEBnhFpdoguaygQf4M0h5c3lgOaTVOlvl_eG-0jYX4TFfoEGd5K3wWQYOgYXQGp1G1eTaITpWcb7dkJnl03wrVM_DXK0wN5_VA1YLuSrjbE8CkMqXWixY0VNPSyQPw7F2REh-x2BGnoXbmM6cac04rQMQoIYbSOZdH6aTCzXEeZoXb4AQBgAbjv6vCiIb3oQ2gBiHYBwA%26num%3D1%26sig%3DAOD64_3nFAJn6Rg-owFWcTdTD3yA1KkLDA%26client%3Dca-pub-5787592483766760%26adurl%3Dhttp://gohf.magicbricks.com/project/future-towers%253Futm_source%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526utm_medium%253DCPC%2526utm_campaign%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526mbtracker%253DGoogle_DBM_GOHF%2526cCode%253DGoogle_DBM_GOHF%2526campaignCode%253DGoogle_DBM_GOHF_City_Coporation_Anamora',
+        targetWindow: '_blank',
+        windowProperties: ''
+      }
+    ],
+    timerEvents: [
+    ],
+    counterEvents: [
+    ],
+    childFiles: [
+    ],
+    videoFiles: [
+    ],
+    videoEntries: [
+    ],
+    primaryAssets: [
+      {
+        id: '0',
+        artworkType: 'FLASH',
+        displayType: 'BANNER',
+        width: '160',
+        height: '600',
+        servingPath: '/4954043/CityCorporation_160x600.swf',
+        zIndex: '0',
+        customCss: '',
+        flashArtworkTypeData: {
+          actionscriptVersion: '1',
+          wmode: 'opaque',
+          sdkVersion: '',
+          flashBackgroundColor: '',
+          allowScriptAccess: 'always'
+        },
+        htmlArtworkTypeData: null,
+        floatingDisplayTypeData: null,
+        expandingDisplayTypeData: null,
+        imageGalleryTypeData: null,
+        pageSettings:null,
+layoutsConfig: null,
+layoutsApi: null
+      },
+      {
+        id: '0',
+        artworkType: 'HTML5',
+        displayType: 'BANNER',
+        width: '160',
+        height: '600',
+        servingPath: '/4954043/1437296161781/CityCorporation_160x600.html',
+        zIndex: '0',
+        customCss: '',
+        flashArtworkTypeData: null,
+        htmlArtworkTypeData: {
+          isTransparent: false,
+          sdkVersion: '' // Duplicating sdk version in subsequent field as version format not the same.
+        },
+        floatingDisplayTypeData: null,
+        expandingDisplayTypeData: null,
+        imageGalleryTypeData: null,
+        pageSettings:null,
+layoutsConfig: null,
+layoutsApi: null
+      }
+    ]
+  }
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  rendererDisplayType += 'html_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+
+  var creativeId = '64165577';
+  var adId = '0';
+  var templateVersion = '200_90';
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var creativeObjects = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creativeKey = [creativeId, adId].join('_');
+  var creative = creativeObjects[creativeKey] = creativeObjects[creativeKey] || {};
+  creative['creativeDefinition'] = creativeDefinition;
+  var adResponses = creative['adResponses'] || [];
+  for (var i = 0; i < adResponses.length; i++) {
+    adResponses[i].creativeDto && adResponses[i].creativeDto.csiEvents &&
+        (adResponses[i].creativeDto.csiEvents['pe'] =
+            adResponses[i].creativeDto.csiEvents['pe'] || (+new Date));
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  if (typedLibrary['bootstrap']) {
+    typedLibrary.bootstrap();
+  }
+})();
+
+})();
+document.write('\n\x3cnoscript\x3e\n  \x3ca target\x3d\x22_blank\x22 href\x3d\x22http://adclick.g.doubleclick.net/pcs/click?xai\x3dAKAOjsuyVDOJzKwEdXtJH9xap5b-sYvkRDGQROzlWcOUmoWAdi_3zZb2wJ2vvcd4-cISyi5T8alhe89XCfXD7K1LIlgxdhxHJ1fMHxSBPLk8gGrx2Y0z3yc3mJ6673wAqUHFys9yhDGPcOqi\x26sig\x3dCg0ArKJSzD0738rOdtElEAE\x26adurl\x3dhttp://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCg8C1TuKvVYuqBcOTogPt5In4B_7pr9cDluv3s2TAjbcBEAEgAGDl6uaDvA6CARdjYS1wdWItNTc4NzU5MjQ4Mzc2Njc2MMgBCeACAKgDAZgEAKoE4gFP0FRKTFT7k5iVKZB8NOBM0EQkQMTTUEqdzrxf-VX4uj4vXlr8X-PsuSffAy1txOhZJa-G53PKHp-s7Skh2fM59cqnRKAKY-BRbe3xrjr5Pd6YVdJXGgxZOeS549s9IjfEBnhFpdoguaygQf4M0h5c3lgOaTVOlvl_eG-0jYX4TFfoEGd5K3wWQYOgYXQGp1G1eTaITpWcb7dkJnl03wrVM_DXK0wN5_VA1YLuSrjbE8CkMqXWixY0VNPSyQPw7F2REh-x2BGnoXbmM6cac04rQMQoIYbSOZdH6aTCzXEeZoXb4AQBgAbjv6vCiIb3oQ2gBiHYBwA%26num%3D1%26sig%3DAOD64_3nFAJn6Rg-owFWcTdTD3yA1KkLDA%26client%3Dca-pub-5787592483766760%26adurl%3Dhttp://gohf.magicbricks.com/project/future-towers%253Futm_source%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526utm_medium%253DCPC%2526utm_campaign%253DGoogle_DBM_GOHF_City_Coporation_Anamora%2526mbtracker%253DGoogle_DBM_GOHF%2526cCode%253DGoogle_DBM_GOHF%2526campaignCode%253DGoogle_DBM_GOHF_City_Coporation_Anamora\x22\x3e\n    \x3cimg border\x3d\x220\x22 alt\x3d\x22\x22 src\x3d\x22//s0.2mdn.net/4954043/City-Corporation-160x600.jpg\x22\n        width\x3d\x22160\x22 height\x3d\x22600\x22 /\x3e\n  \x3c/a\x3e\n\x3c/noscript\x3e\n');if (!window.mraid) {document.write('\x3c/div\x3e');}if (!window.mraid) {(function() {var avDiv = document.getElementById("DfaVisibilityIdentifier_808671089");if (avDiv) {avDiv['_avi_'] = 'BeCcwXeKvVZu0EIWZvgTQiY-YBQAAAAAQATgByAEJ4AQCoAY_';avDiv['_avihost_'] = 'pagead2.googlesyndication.com';avDiv['_avm_'] = 'la\x3d0\x26';}var glidar = document.createElement('script');glidar.type = 'text/javascript';glidar.async = true;glidar.src = '//pagead2.googlesyndication.com/pagead/js/lidar.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glidar, s);})();}†ºòžæ`      U¯âNU¯â];dËÑ      V:http://bid.g.doubleclick.net/xbbe/creative/adj?d=APEucNX-NoGqzzP61PawZ6oa8kFsCwcZOjmGO_VivhfaVUST8gYo2sI30EUJaaltHkwdCDR82LSUZYvtD4wYOpmFf8s_n6bEPWAz8SVyO5mhux0fevGzy_hONIglW2ec9GdD-KPUiFbaQTwhetMXF8YfEvTagURO-73M1zHFPAu4nLIkQdk7To62NcMQi_5hAYyQKORdErRaz622ppyNfIYEBbQVEyV8UOPexpAfoMu-SuGVaBXl7bUdqRDWci1iJpL8Ljjl6HnUoYLUrp0MXkdUVc2QP4ngORA1z1xkYrYcs5VazWsrppYEzm-42AjHuXOr67Mh0Fctn0BcfWk65IqFxI_vldDcQC9kwIxisEXcULFmAhf1i-lsVClgBnEFl_DW8BwbvkXiDo6rNvo3vBqHIiDlfGLwiQ&pr=Va_iTgABVQsKaInDAAJybY8AK2rxzZ4i6Mk1VQ&c=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCg8C1TuKvVYuqBcOTogPt5In4B_7pr9cDluv3s2TAjbcBEAEgAGDl6uaDvA6CARdjYS1wdWItNTc4NzU5MjQ4Mzc2Njc2MMgBCeACAKgDAZgEAKoE4gFP0FRKTFT7k5iVKZB8NOBM0EQkQMTTUEqdzrxf-VX4uj4vXlr8X-PsuSffAy1txOhZJa-G53PKHp-s7Skh2fM59cqnRKAKY-BRbe3xrjr5Pd6YVdJXGgxZOeS549s9IjfEBnhFpdoguaygQf4M0h5c3lgOaTVOlvl_eG-0jYX4TFfoEGd5K3wWQYOgYXQGp1G1eTaITpWcb7dkJnl03wrVM_DXK0wN5_VA1YLuSrjbE8CkMqXWixY0VNPSyQPw7F2REh-x2BGnoXbmM6cac04rQMQoIYbSOZdH6aTCzXEeZoXb4AQBgAbjv6vCiIb3oQ2gBiHYBwA%26num%3D1%26sig%3DAOD64_3nFAJn6Rg-owFWcTdTD3yA1KkLDA%26client%3Dca-pub-5787592483766760%26adurl%3D necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+p3p: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Date: Wed, 22 Jul 2015 18:35:09 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/javascript; charset=ISO-8859-1
+x-content-type-options: nosniff
+Content-Disposition: attachment; filename="f.txt"
+Server: xbfe
+Content-Length: 17769
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+ uncompressed-len 0   Ei

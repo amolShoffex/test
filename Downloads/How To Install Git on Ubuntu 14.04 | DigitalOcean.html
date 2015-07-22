@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html class="wf-proximanova-i4-active wf-proximanova-n1-active wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n6-active wf-proximanova-n7-active wf-active"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>How To Install Git on Ubuntu 14.04 | DigitalOcean</title>
+
+<meta name="description" content="Git is a powerful distributed version control system that can be used to track software development projects and other information. In this guide, we'll demonstrate a few different ways to install git on an Ubuntu 14.04 server and how to get started.">
+<meta name="keywords" content="Git">
+
+<meta name="og:title" content="How To Install Git on Ubuntu 14.04 | DigitalOcean">
+<meta name="og:description" content="Git is a powerful distributed version control system that can be used to track software development projects and other information. In this guide, we'll demonstrate a few different ways to install git on an Ubuntu 14.04 server and how to get started.">
+<meta name="og:site_name" content="DigitalOcean">
+<meta name="og:type" content="article">
+
+<meta name="twitter:site" content="DigitalOcean">
+<meta name="twitter:title" content="How To Install Git on Ubuntu 14.04 | DigitalOcean">
+<meta name="twitter:description" content="Git is a powerful distributed version control system that can be used to track software development projects and other information. In this guide, we'll demonstrate a few different ways to install git on an Ubuntu 14.04 server and how to get started.">
+<meta name="twitter:creator" content="DigitalOcean">
+
+  <meta property="og:image" content="https://www.digitalocean.com/assets/community/tags/git-f98f2a0cdd46ce4ac549a7a0d4700eee.png">
+
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:image" content="https://www.digitalocean.com/assets/community/tags/git-f98f2a0cdd46ce4ac549a7a0d4700eee.png">
+  <meta name="twitter:url" content="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04">
+
+  <link rel="canonical" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04">
+
+
+    <link rel="stylesheet" media="all" href="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/application-74063460bc2376721ed2044b1a63dc40.css">
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="jDenKWxUDfd8/bvpKRbwPTN9AYqpB0OhGc5rGSkTz1oGi/Yj+lPOipXa9mM9LukC/xjuaXq8UcjOIEXg3GABLw==">
+    <script async="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/bat.js"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/fbds.js" async=""></script><script type="text/javascript" async="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/quant.js"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/conversion_async.js" async="" type="text/javascript"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/roundtrip.js" async="" type="text/javascript"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/analytics.js" async="" type="text/javascript"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/analytics.js" async="" type="text/javascript"></script><script id="cio-tracker" data-site-id="e7cc779295927747a7c2" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/track.js" async="" type="text/javascript"></script><script async="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/cbgapi.loaded_0"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/hn-button.js" id="hn-button.js" async=""></script><script gapi_processed="true" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/plusone.js" async="" type="text/javascript"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/all.js" async="" id="facebook-jssdk"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/widgets.js" async="" id="twitter-wjs"></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/gtm.js" async=""></script><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/analytics_002.js" async="" type="text/javascript"></script><script type="text/javascript" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/njm7orv.js"></script>
+    <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><link media="all" href="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/d.css" rel="stylesheet"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/701281621.js"></script>
+    <script type="text/javascript">
+      if(window.analytics=window.analytics||[],window.analytics.included)window.console&&console.error&&console.error("analytics.js included twice");else{window.analytics.included=!0,window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(a){return function(){var n=Array.prototype.slice.call(arguments);return n.unshift(a),window.analytics.push(n),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(a){var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+a+"/analytics.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t)},window.analytics.SNIPPET_VERSION="2.0.9",
+      window.analytics.load("puo3uv968t")}
+      window.analytics.page();
+    </script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/application-b30258fd032fd296541edf1b56af66e0.js"></script>
+  <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/4IDGVTPEAFC4TM2QKYNQ53" type="text/javascript" async="true"></script><div style="width: 1px; height: 1px; display: inline;"><img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_008.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_007.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_002.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_003.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_006.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_005.gif" height="1" width="1">
+<img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/out_004.gif" height="1" width="1">
+<img alt="" style="display:none" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/tr.gif" height="1" width="1"><img style="border-style:none;" alt="" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/a.gif" height="1" width="1">
+<img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/seg.gif" height="1" width="1">
+</div></head>
+  <body class="tutorials-controller tutorial-single" data-env="production" ,="" data-prefix="/community" data-user-id="" data-facebook-app-id="694818843983011">
+    <script>
+//<![CDATA[
+
+    $(function() {
+      dataLayer = [$.parseJSON('{\"user_id\":\"\",\"is_community_page\":true,\"content_type\":\"tutorial\",\"author\":\"Justin Ellingwood\",\"difficulty\":\"beginner\",\"created_at\":\"2014-04-23T16:33:35.000Z\",\"published_at\":\"2014-04-23T16:33:35.000Z\",\"updated_at\":\"2015-05-06T16:32:13.202Z\",\"article_tags\":\"Git\"}')];
+    });
+
+//]]>
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KHWBBT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHWBBT');</script>
+<!-- End Google Tag Manager -->
+    
+
+    <div class="outside_viewport">
+        <div id="share-modal" class="modal fade mini-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Share</h1>
+          <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+        </div>
+        <div class="modal-body">
+
+          <div class="social-sharing social-sharing-container">
+            <ul class="bottom ">
+              <li class="shareBtn" id="sbTwitter">
+                <a href="http://twitter.com/share?text=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=twshare" class="share-icon share-popup" title="Share on Twitter">
+                  <span class="sIcon icon-bird"></span>
+                </a>
+                
+                <a href="http://twitter.com/share?text=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=twshare" class="share-link share-popup" title="Share on Twitter">
+                  Twitter
+                </a>
+                
+              </li>
+
+              <li class="shareBtn" id="sbFacebook">
+                <a class="share-icon facebook-share" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=fbshare" onclick="" title="Share on Facebook">
+                  <span class="sIcon icon-facebook-B"></span>
+                </a>
+
+                <a class="share-link facebook-share" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=fbshare" onclick="" title="Share on Facebook">
+                  Facebook
+                </a>
+              </li>
+              <li class="shareBtn" id="sbGoogle">
+                <a href="https://plus.google.com/share?url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=gpshare" class="share-icon share-popup" title="Share on Google+">
+                  <span class="sIcon icon-google-plus-B"></span>
+                </a>
+
+                <a href="https://plus.google.com/share?url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=gpshare" class="share-link share-popup" title="Share on Google+">
+                  Google+
+                </a>
+              </li>
+              <li class="shareBtn" id="sbYC">
+                <a href="https://news.ycombinator.com/submitlink?t=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=hnshare" class="share-icon" target="_blank" title="Submit to Hacker News">
+                  <span class="sIcon icon-hacker-news"></span>
+                </a>
+
+                <a href="https://news.ycombinator.com/submitlink?t=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=hnshare" class="share-link" target="_blank" title="Submit to Hacker News">
+                  Hacker News
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contents-modal" class="modal fade mini-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Contents</h1>
+          <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+        </div>
+        <div class="modal-body">
+
+          <div class="table-of-contents-modal open tocify"><ul style="display: none;" class="tocify-header" id="tocify-header0"><li data-unique="how-to-install-git-with-apt" class="tocify-item"><a>How To Install Git with Apt</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header1"><li data-unique="how-to-install-git-from-source" class="tocify-item"><a>How To Install Git from Source</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header2"><li data-unique="how-to-set-up-git" class="tocify-item tocify-focus"><a>How To Set Up Git</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header3"><li data-unique="conclusion" class="tocify-item"><a>Conclusion</a></li></ul></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="translation-modal" class="modal fade mini-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Language</h1>
+          <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+        </div>
+        <div class="modal-body">
+
+          <div class="tutorial-translations">
+            <div class="current-language">
+              <ul class="languages medium">
+                <li class="current">
+                  <span class="language "></span>
+                  <span class="icon icon-check-light"></span>
+                  English
+                </li>
+
+
+                    <li>
+                      <a class="edit" title="Portuguese" href="https://www.digitalocean.com/community/tutorials/como-instalar-o-git-no-ubuntu-14-04-pt">
+                        <span class="language pt"></span>
+                        Portuguese
+</a>                    </li>
+                    <li>
+                      <a class="edit" title="Russian" href="https://www.digitalocean.com/community/tutorials/git-ubuntu-14-04-ru">
+                        <span class="language ru"></span>
+                        Russian
+</a>                    </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="top: 0px;" class="tutorial-info-bar-container">
+  <div class="tutorial-info-bar">
+    <div class="left-section">
+      <div class="tutorial-author-avatar">
+        <a href="https://www.digitalocean.com/community/users/jellingwood"><img alt="jellingwood" class="avatar avatar-medium" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/60d901f61a6146e14a3e989bc1f4ef11.png" height="80" width="80"></a>
+      </div>
+      
+      <div class="author-and-date">
+          <div class="tutorial-author">
+            <div class="by">By: </div><a href="https://www.digitalocean.com/community/users/jellingwood">Justin Ellingwood</a>
+          </div>
+          
+        <div class="tutorial-date">Apr 23, 2014</div>
+      </div>
+
+      <div class="upvotes upvoted tutorial-upvote"><form data-upvotable="tutorial_1143" data-upvotable-type="tutorial" class="upvote-form upvote signed-out-upvote" action="/community/upvotes/toggle?upvote%5Bupvotable_id%5D=1143&amp;upvote%5Bupvotable_type%5D=Tutorial" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="jDenKWxUDfd8/bvpKRbwPTN9AYqpB0OhGc5rGSkTz1oGi/Yj+lPOipXa9mM9LukC/xjuaXq8UcjOIEXg3GABLw==" type="hidden">
+    <button type="submit" disabled="disabled" data-toggle="modal" data-target="#sign-in-modal"><span class="icon-upvote-heart-small upvote-heart" data-toggle="modal" data-target="#sign-in-modal" data-return-url="" title="Do you find this post helpful? Show the author by Hearting it!" data-placement="bottom"></span></button>
+
+</form><span class="upvote-text"><span class="hearted-text">Hearted</span><span class="heart-text">Heart</span></span><div class="upvote-count ">29</div></div>
+
+      <div class="tutorial-comments-count">
+        <span class="icon icon-new-comment"></span>
+        3
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="section-item social-sharing-item"><div class="sharing">
+  <a class="share-button" href="#" data-toggle="modal" data-target="#share-modal">
+    <span class="icon icon-share-square"></span>
+    Share
+  </a>
+</div>
+
+</div>
+      <div class="section-item table-of-contents-triggers"><div class="toc-trigger ">
+  <a href="javascript:void(0);">
+    <span class="icon icon-close-light"></span>
+    <span class="icon icon-menu-thin"></span>
+    <span class="title">Contents</span>
+  </a>
+</div>
+
+
+
+<div class="toc-trigger-mobile" data-toggle="modal" data-target="#contents-modal">
+  <a href="javascript:void(0);">
+    <span class="icon icon-menu-thin"></span>
+    <span class="title">Contents</span>
+  </a>
+</div>
+
+
+</div>
+
+        <div class="section-item"><div class="tutorial-translations">
+  <div class="current-language">
+    <a title="English" data-toggle="modal" data-target="#translation-modal" href="javascript:void(0);">
+      <span class="language "></span>
+      <span class="icon icon-arrow-up"></span>
+      <span class="icon icon-arrow-down"></span>
+</a>  </div>
+</div>
+
+
+
+</div>
+    </div>
+  </div>
+</div>
+  <div style="top: 72px;" class="table-of-contents  tocify sticky"><ul style="display: none;" class="tocify-header" id="tocify-header0"><li data-unique="how-to-install-git-with-apt" class="tocify-item"><a>How To Install Git with Apt</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header1"><li data-unique="how-to-install-git-from-source" class="tocify-item"><a>How To Install Git from Source</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header2"><li data-unique="how-to-set-up-git" class="tocify-item tocify-focus"><a>How To Set Up Git</a></li></ul><ul style="display: none;" class="tocify-header" id="tocify-header3"><li data-unique="conclusion" class="tocify-item"><a>Conclusion</a></li></ul></div>
+  <div id="share-modal" class="modal fade mini-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Share</h1>
+          <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+        </div>
+        <div class="modal-body">
+
+          <div class="social-sharing social-sharing-container">
+            <ul class="top ">
+              <li class="shareBtn" id="sbTwitter">
+                <a href="http://twitter.com/share?text=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=twshare" class="share-icon share-popup" title="Share on Twitter">
+                  <span class="sIcon icon-bird"></span>
+                </a>
+                
+                <a href="http://twitter.com/share?text=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=twshare" class="share-link share-popup" title="Share on Twitter">
+                  Twitter
+                </a>
+                
+              </li>
+
+              <li class="shareBtn" id="sbFacebook">
+                <a class="share-icon facebook-share" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=fbshare" onclick="" title="Share on Facebook">
+                  <span class="sIcon icon-facebook-B"></span>
+                </a>
+
+                <a class="share-link facebook-share" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=fbshare" onclick="" title="Share on Facebook">
+                  Facebook
+                </a>
+              </li>
+              <li class="shareBtn" id="sbGoogle">
+                <a href="https://plus.google.com/share?url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=gpshare" class="share-icon share-popup" title="Share on Google+">
+                  <span class="sIcon icon-google-plus-B"></span>
+                </a>
+
+                <a href="https://plus.google.com/share?url=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=gpshare" class="share-link share-popup" title="Share on Google+">
+                  Google+
+                </a>
+              </li>
+              <li class="shareBtn" id="sbYC">
+                <a href="https://news.ycombinator.com/submitlink?t=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=hnshare" class="share-icon" target="_blank" title="Submit to Hacker News">
+                  <span class="sIcon icon-hacker-news"></span>
+                </a>
+
+                <a href="https://news.ycombinator.com/submitlink?t=How%20To%20Install%20Git%20on%20Ubuntu%2014.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?utm_content=how-to-install-git-on-ubuntu-14-04&amp;utm_medium=community&amp;utm_source=hnshare" class="share-link" target="_blank" title="Submit to Hacker News">
+                  Hacker News
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="mobile-nav">
+  
+<div class="account-buttons">
+    <div id="entrance">
+      <a id="sign-up" class="button" href="https://www.digitalocean.com/community/auth/digitalocean?display=sessionless+register">Sign Up</a>
+      <a id="log-in" class="button" href="https://www.digitalocean.com/community/auth/digitalocean">Log In</a>
+    </div>
+</div>
+    
+  <a class="close-panel icon-close" href="javascript:void(0);"></a>
+
+  <form class="mobile-search" action="/community/search" accept-charset="UTF-8" method="get"><input name="utf8" value="✓" type="hidden">
+    <span class="icon icon-search-thin"></span>
+    <input name="q" id="q" placeholder="Search" type="text">
+    <button name="button" type="submit" class="icon-btn">submit</button>
+</form>
+  
+<nav>
+
+  <ul>
+    <li><a href="https://www.digitalocean.com/community/tutorials">Tutorials</a></li>
+    <li><a href="https://www.digitalocean.com/community/questions">Questions</a></li>
+    <li><a href="https://www.digitalocean.com/community/projects">Projects</a></li>
+    <li class="mobile-nav-only"><a href="https://www.digitalocean.com/">Main Site</a></li>
+  </ul>
+</nav>
+
+  
+</div>
+
+
+      
+    	<header>
+  <div class="main-menu-container">
+    <div class="wrapper">
+      <div class="logo">
+        <a class="" href="https://www.digitalocean.com/">
+          <span class="icon icon-cloud"></span>
+</a>
+        <a class="" href="https://www.digitalocean.com/community">
+          <span class="logo-community-text">Community</span>
+</a>      </div>
+      
+      <a class="mobile-nav-toggle icon-menu-thin" data-role="left">
+        <span>Menu</span>
+      </a>
+
+      
+<nav>
+
+  <ul>
+    <li><a href="https://www.digitalocean.com/community/tutorials">Tutorials</a></li>
+    <li><a href="https://www.digitalocean.com/community/questions">Questions</a></li>
+    <li><a href="https://www.digitalocean.com/community/projects">Projects</a></li>
+    <li class="mobile-nav-only"><a href="https://www.digitalocean.com/">Main Site</a></li>
+  </ul>
+</nav>
+
+      
+      
+<div class="account-buttons">
+    <div id="entrance">
+      <a id="sign-up" class="button" href="https://www.digitalocean.com/community/auth/digitalocean?display=sessionless+register">Sign Up</a>
+      <a id="log-in" class="button" href="https://www.digitalocean.com/community/auth/digitalocean">Log In</a>
+    </div>
+</div>
+      <div class="header-search open">
+  <form action="/community/search" accept-charset="UTF-8" method="get"><input name="utf8" value="✓" type="hidden">
+    <span class="icon icon-search-thin"></span>
+    <input name="q" id="q" placeholder="Search" autocomplete="off" spellcheck="off" class="header-search-input" data-algolia-application-id="6ZHEUVKJ88" data-algolia-api-key="c5470567eae7fa1177d43222e18ba086" type="text">
+    <button name="button" type="submit" class="icon-btn">submit</button>
+</form></div>
+
+<div class="search-results-dropdown dropdown" data-root-path="https://www.digitalocean.com/community">
+  <div class="container">
+    <div class="header-search-results-list"></div>
+
+    <div id="btn-wrap">
+      <a class="more-search-results" data-search-path="/community/search" href="https://www.digitalocean.com/community/search">
+        <span class="icon-mag"></span>
+        View All Results
+</a>    </div>
+  </div>
+</div>
+
+<script type="text/template" id="autocomplete-hits-template">
+  <div class="inner-search">
+    <ul>
+        {{#hits}}
+          <li>
+            <span class='icon icon-{{type}}'></span>
+            <a href='{{url}}'>{{{_highlightResult.title.value}}}</a>
+          </li>
+        {{/hits}}
+    </ul>
+  </div>
+</script>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  
+
+  <div class="wrapper">
+    
+  </div>
+</header>
+      
+        <div class="flash-container"></div>
+
+      <div class="wrapper layout-wrapper">
+
+        
+
+
+
+<div class="section-content content">
+  
+
+    <div class="info-cta">
+    <a class="icon-close-light" href="javascript:void();"></a>
+    We hope you find this tutorial helpful. In addition to guides like 
+this one, we provide simple cloud infrastructure for developers. <a href="https://www.digitalocean.com/?utm_medium=community&amp;utm_source=community_gencta&amp;utm_campaign=needaserver&amp;utm_content=how-to-install-git-on-ubuntu-14-04">
+        Learn more →
+</a>  </div>
+
+  
+  <h1 class="content-title">How To Install Git on Ubuntu 14.04</h1>
+
+    <span class="meta-section tags">
+      <span class="meta-label">Tags: </span>
+      <span class="meta-value"><a class="" href="https://www.digitalocean.com/community/tags/git?type=tutorials">Git</a></span>
+    </span>
+
+    <span class="meta-section tags">
+      <span class="meta-label">Distribution: </span>
+      <span class="meta-value"><a class="" href="https://www.digitalocean.com/community/tags/ubuntu?type=tutorials">Ubuntu</a></span>
+    </span>
+
+    <div class="tutorial-series-container collapsed">
+    <div class="section-content">
+
+      <h2 class="tutorial-series-heading">Tutorial Series</h2>
+
+          <div class="tutorial-series-toggle">
+            This tutorial is part 1 of 3 in the series:
+            <a data-reveal="fast" href="#tutorial_series_1">Introduction to Git: Installation, Usage, and Branches</a>
+          </div>
+
+        <div id="tutorial_series_1" class="tutorial-series hidden">
+          <a class="icon-close" href="javascript:void(0);"></a>
+          <h3 class="series-title"><a href="https://www.digitalocean.com/community/tutorial_series/introduction-to-git-installation-usage-and-branches">Introduction to Git: Installation, Usage, and Branches</a></h3>
+
+            <div class="description">
+              This series covers the installation and usage of git on an
+ Ubuntu 14.04 server. After completing the series, the reader should 
+feel comfortable installing and using git, as well as how to create two 
+branches (master and develop) and how to merge code from the development
+ stage to production.
+            </div>
+          <ol class="tutorial-series-list">
+    <li class="active">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04">How To Install Git on Ubuntu 14.04</a></h2>
+
+      <div class="feedable-date">April 23, 2014</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          29
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          3
+        </div>
+
+          <span class="author">By <a href="https://www.digitalocean.com/community/users/jellingwood">Justin Ellingwood</a></span>
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+    <li class="">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively">How To Use Git Effectively</a></h2>
+
+      <div class="feedable-date">March  6, 2013</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          17
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          26
+        </div>
+
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+    <li class="">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-branches">How To Use Git Branches</a></h2>
+
+      <div class="feedable-date">March 18, 2013</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          6
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          10
+        </div>
+
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+</ol>
+  
+  <a class="next-tutorial" href="https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively">Next Tutorial</a>
+
+        </div>
+    </div>
+  </div>
+
+
+  <div class="content-body tutorial-content">
+    <h3 id="introduction">Introduction</h3>
+
+<p>An indispensable tool in modern software development is some kind of 
+version control system.  Version control systems allow you to keep track
+ of your software at the source level.  You can track changes, revert to
+ previous stages, and branch to create alternate versions of files and 
+directories.</p>
+
+<p>One of the most popular version control systems is <code>git</code>, a
+ distributed version control system.  Many projects maintain their files
+ in a git repository, and sites like GitHub and Bitbucket have made 
+sharing and contributing to code simple and valuable.</p>
+
+<p>In this guide, we will demonstrate how to install git on an Ubuntu 
+14.04 VPS instance.  We will cover how to install the software in two 
+different ways, each of which have benefits.</p>
+
+<p>This tutorial assumes you are signed in as a <a href="https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-14-04">non-root user</a> which you can learn how to create here.</p>
+
+<div data-unique="how-to-install-git-with-apt" name="how-to-install-git-with-apt"></div><h2 id="how-to-install-git-with-apt">How To Install Git with Apt</h2>
+
+<p>By far the easiest way of getting <code>git</code> installed and 
+ready to use is by using Ubuntu's default repositories.  This is the 
+fastest method, but the version may be older than the newest version.  
+If you need the latest release, consider following the steps to compile <code>git</code> from source.</p>
+
+<p>You can use the <code>apt</code> package management tools to update your local package index.  Afterwards, you can download and install the program:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">sudo apt-get update
+</li><li class="line" prefix="$">sudo apt-get install git
+</li></ul></code></pre>
+<p>This will download and install <code>git</code> to your system.  You 
+will still have to complete the configuration steps that we cover in the
+ "setup" section, so feel free to skip to <a href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04#how-to-set-up-git">that section</a> now.</p>
+
+<div data-unique="how-to-install-git-from-source" name="how-to-install-git-from-source"></div><h2 id="how-to-install-git-from-source">How To Install Git from Source</h2>
+
+<p>A more flexible method of installing <code>git</code> is to compile 
+the software from source.  This takes longer and will not be maintained 
+through your package manager, but it will allow you to download the 
+latest release and will give you some control over the options you 
+include if you wish to customize.</p>
+
+<p>Before you begin, you need to install the software that <code>git</code>
+ depends on.  This is all available in the default repositories, so we 
+can update our local package index and then install the packages:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">sudo apt-get update
+</li><li class="line" prefix="$">sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+</li></ul></code></pre>
+<p>After you have installed the necessary dependencies, you can go ahead and get the version of git you want by visiting the <a href="https://github.com/git/git">git project's page on GitHub</a>.</p>
+
+<p>The version you see when you arrive at the project's page is the 
+branch that is actively being committed to.  If you want the latest 
+stable release, you should go change the branch to the latest non-"rc" 
+tag using this button along the left side of the project header:</p>
+
+<p><img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/change_branch.png" alt="git change branch"></p>
+
+<p>Next, on the right side of the page, right-click the "Download ZIP" button and select the option similar to "Copy Link Address":</p>
+
+<p><img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/download_zip.png" alt="git download zip"></p>
+
+<p>Back on your Ubuntu 14.04 server, you can type <code>wget</code> and follow it by pasting the address you copied.  The URL that you copied may be different from mine:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">wget <span class="highlight">https://github.com/git/git/archive/v1.9.2.zip</span> -O git.zip
+</li></ul></code></pre>
+<p>Unzip the file that you downloaded and move into the resulting directory by typing:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">unzip git.zip
+</li><li class="line" prefix="$">cd git-*
+</li></ul></code></pre>
+<p>Now, you can make the package and install it by typing these two commands:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">make prefix=/usr/local all
+</li><li class="line" prefix="$">sudo make prefix=/usr/local install
+</li></ul></code></pre>
+<p>Now that you have <code>git</code> installed, if you want to upgrade to a later version, you can simply clone the repository and then build and install:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">git clone <span class="highlight">https://github.com/git/git.git</span>
+</li></ul></code></pre>
+<p>To find the URL to use for the clone operation, navigate to the branch or tag that you want on the <a href="https://github.com/git/git">project's GitHub page</a> and then copy the clone URL on the right side:</p>
+
+<p><img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/clone_url.png" alt="git clone URL"></p>
+
+<p>This will create a new directory within your current directory where 
+you can rebuild the package and reinstall the newer version, just like 
+you did above.  This will overwrite your older version with the new 
+version:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">make prefix=/usr/local all
+</li><li class="line" prefix="$">sudo make prefix=/usr/local install
+</li></ul></code></pre>
+<div data-unique="how-to-set-up-git" name="how-to-set-up-git"></div><h2 id="how-to-set-up-git">How To Set Up Git</h2>
+
+<p>Now that you have <code>git</code> installed, you need to do a few 
+things so that the commit messages that will be generated for you will 
+contain your correct information.</p>
+
+<p>The easiest way of doing this is through the <code>git config</code> command.  Specifically, we need to provide our name and email address because <code>git</code> embeds this information into each commit we do.  We can go ahead and add this information by typing:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">git config --global user.name "<span class="highlight">Your Name</span>"
+</li><li class="line" prefix="$">git config --global user.email "<span class="highlight">youremail@domain.com</span>"
+</li></ul></code></pre>
+<p>We can see all of the configuration items that have been set by typing:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">git config --list
+</li></ul></code></pre><div class="code-label " title="git configuration">git configuration</div><pre class="code-pre "><code langs="">user.name=<span class="highlight">Your Name</span>
+user.email=<span class="highlight">youremail@domain.com</span>
+</code></pre>
+<p>As you can see, this has a slightly different format.  The 
+information is stored in the configuration file, which you can 
+optionally edit by hand with your text editor like this:</p>
+<pre class="code-pre command"><code langs=""><ul class="prefixed"><li class="line" prefix="$">nano ~/.gitconfig
+</li></ul></code></pre><div class="code-label " title="~/.gitconfig contents">~/.gitconfig contents</div><pre class="code-pre "><code langs="">[user]
+    name = <span class="highlight">Your Name</span>
+    email = <span class="highlight">youremail@domain.com</span>
+</code></pre>
+<p>There are many other options that you can set, but these are the two 
+essential ones needed.  If you skip this step, you'll likely see 
+warnings when you commit to <code>git</code> that are similar to this:</p>
+<div class="code-label " title="Output when git username and email not set">Output when git username and email not set</div><pre class="code-pre "><code langs="">[master 0d9d21d] initial project version
+ Committer: root 
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+</code></pre>
+<p>This makes more work for you because you will then have to revise the commits you have done with the corrected information.</p>
+
+<div data-unique="conclusion" name="conclusion"></div><h2 id="conclusion">Conclusion</h2>
+
+<p>You should now have <code>git</code> installed and ready to use on your system.  To learn more about how to use Git, check out these articles:</p>
+
+<ul>
+<li><a href="https://www.digitalocean.com/community/articles/how-to-use-git-effectively">How To Use Git Effectively</a></li>
+<li><a href="https://www.digitalocean.com/community/articles/how-to-use-git-branches">How To Use Git Branches</a></li>
+</ul>
+
+<div class="author">By Justin Ellingwood</div>
+
+  </div>
+</div>
+
+<div class="tutorial-footer">
+  <div class="tutorial-footer-details">
+  <div class="section-content tutorial-public-actions">
+    <div class="upvotes upvoted tutorial-upvote large-upvotes"><form data-upvotable="tutorial_1143" data-upvotable-type="tutorial" class="upvote-form upvote signed-out-upvote" action="/community/upvotes/toggle?upvote%5Bupvotable_id%5D=1143&amp;upvote%5Bupvotable_type%5D=Tutorial" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="jDenKWxUDfd8/bvpKRbwPTN9AYqpB0OhGc5rGSkTz1oGi/Yj+lPOipXa9mM9LukC/xjuaXq8UcjOIEXg3GABLw==" type="hidden">
+    <button type="submit" disabled="disabled" data-toggle="modal" data-target="#sign-in-modal"><span class="icon-upvote-heart-small upvote-heart" data-toggle="modal" data-target="#sign-in-modal" data-return-url="" title="Do you find this post helpful? Show the author by Hearting it!" data-placement="top"></span></button>
+
+</form><span class="upvote-text"><span class="hearted-text">Hearted</span><span class="heart-text">Heart</span></span><div class="upvote-count ">29</div></div>
+
+    <div class="share-subscribe-actions">
+      <span class="meta-section opt-in-switch off signed-out-subscribe">
+  <span class="meta-label subscribe-label">
+    <span class="subscription-label subscribe">Subscribe</span>
+    <span class="subscription-label subscribed">Subscribed</span>
+  </span>
+  <span class="meta-value"><a data-toggle="modal" data-target="#sign-in-modal" class="mini-switch-container" href="javascript:void(0);"><div class="mini-switch off signed-out-subscribe"><div class="switch-handle"></div></div></a></span>
+</span>
+      <div class="sharing">
+  <a class="share-button" href="#" data-toggle="modal" data-target="#share-modal">
+    <span class="icon icon-share-square"></span>
+    Share
+  </a>
+</div>
+
+
+    </div>
+  </div>
+
+  <div class="section-content tutorial-contributors one">
+      <div class="tutorial-footer-user">
+        <a href="https://www.digitalocean.com/community/users/jellingwood"><img alt="jellingwood" class="avatar avatar-small" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/60d901f61a6146e14a3e989bc1f4ef11.png" height="80" width="80"></a>
+        <div class="user-info">
+          <div class="tutorial-user-type">Author:</div>
+          <a href="https://www.digitalocean.com/community/users/jellingwood">Justin Ellingwood</a>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+    <div class="tutorial-series-container ">
+    <div class="section-content">
+
+      <h2 class="tutorial-series-heading">Tutorial Series</h2>
+
+
+        <div id="tutorial_series_1" class="tutorial-series ">
+          
+          <h3 class="series-title"><a href="https://www.digitalocean.com/community/tutorial_series/introduction-to-git-installation-usage-and-branches">Introduction to Git: Installation, Usage, and Branches</a></h3>
+
+            <div class="description">
+              This series covers the installation and usage of git on an
+ Ubuntu 14.04 server. After completing the series, the reader should 
+feel comfortable installing and using git, as well as how to create two 
+branches (master and develop) and how to merge code from the development
+ stage to production.
+            </div>
+          <ol class="tutorial-series-list">
+    <li class="active">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04">How To Install Git on Ubuntu 14.04</a></h2>
+
+      <div class="feedable-date">April 23, 2014</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          29
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          3
+        </div>
+
+          <span class="author">By <a href="https://www.digitalocean.com/community/users/jellingwood">Justin Ellingwood</a></span>
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+    <li class="">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively">How To Use Git Effectively</a></h2>
+
+      <div class="feedable-date">March  6, 2013</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          17
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          26
+        </div>
+
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+    <li class="">
+      <h2><a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-branches">How To Use Git Branches</a></h2>
+
+      <div class="feedable-date">March 18, 2013</div>
+      <div class="meta">
+        <div class="points">
+          <span class="icon-upvote-heart-small"></span>
+          6
+        </div>
+
+        <div class="response-count">
+          <span class="icon icon-new-comment"></span>
+          10
+        </div>
+
+      </div>
+      <div class="arrow-left"></div>
+    </li>
+</ol>
+
+        </div>
+    </div>
+  </div>
+
+  <div class="tutorial-ctas">
+  <div class="section-content">
+    <div class="cta-description">
+      <h2>Spin up an SSD cloud server in under a minute.</h2>
+
+      <p>Simple setup. Full root access. Straightforward pricing.</p>
+
+      <a class="cloud-tutorial-cta" href="https://www.digitalocean.com/?utm_medium=community&amp;utm_source=community_gencta&amp;utm_campaign=needaserver&amp;utm_content=how-to-install-git-on-ubuntu-14-04">Deploy Server</a>
+    </div>
+  </div>
+</div>
+    <div class="related-tutorials">
+    <div class="section-content">
+      <h2>Related Tutorials</h2>
+
+      <ul>
+            <li><a class="related-link" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-gogs-on-ubuntu-14-04">How To Set Up Gogs on Ubuntu 14.04</a></li>
+            <li><a class="related-link" href="https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-user-interface-to-manage-projects">How To Use the GitLab User Interface To Manage Projects</a></li>
+            <li><a class="related-link" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps">How To Set Up a Private Git Server on a VPS</a></li>
+            <li><a class="related-link" href="https://www.digitalocean.com/community/tutorials/how-to-use-git-branches">How To Use Git Branches</a></li>
+            <li><a class="related-link" href="https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively">How To Use Git Effectively</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="content-comments">
+  <div class="section-content">
+    <div class="tutorial commentable" id="tutorial_1143">
+
+  <div class="comments-header">
+    <h4 class="comments-count"><span>3 Comments</span></h4>
+  </div>
+
+  <div class="response no-avatar  response-form">
+
+  <div class="js-display-on-error flash error hidden"></div>
+  <form class="content-form disabled-form" id="new_comment" action="/community/tutorials/how-to-install-git-on-ubuntu-14-04/comments" accept-charset="UTF-8" data-remote="true" method="post"><input disabled="disabled" name="utf8" value="✓" type="hidden">
+    <div style="height: auto;" class="meltdown_wrap"><div class="meltdown_topmargin"></div><div class="meltdown_bar"><div class="preview-header">Markdown Preview</div><ul class="meltdown_controls meltdown_controls_main"><li data-original-title="Bold" title="" class="meltdown_control-bold meltdown_control meltdown_controlbutton disabled"><span unselectable="on">B</span></li><li data-original-title="Italics" title="" class="meltdown_control-italics meltdown_control meltdown_controlbutton disabled"><span unselectable="on">I</span></li><li data-original-title="Header 1" title="" class="meltdown_control-h1 meltdown_control meltdown_controlbutton disabled"><span unselectable="on">H1</span></li><li data-original-title="Header 2" title="" class="meltdown_control-h2 meltdown_control meltdown_controlbutton disabled"><span unselectable="on">H2</span></li><li data-original-title="Header 3" title="" class="meltdown_control-h3 meltdown_control meltdown_controlbutton disabled"><span unselectable="on">H3</span></li><li data-original-title="Unordered List" title="" class="meltdown_control-ul meltdown_control meltdown_controlbutton disabled"><span unselectable="on">UL</span></li><li data-original-title="Ordered List" title="" class="meltdown_control-ol meltdown_control meltdown_controlbutton disabled"><span unselectable="on">OL</span></li><li data-original-title="Link" title="" class="meltdown_control-link meltdown_control meltdown_controlbutton disabled"><span unselectable="on">Link</span></li><li data-original-title="Code" title="" class="meltdown_control-code meltdown_control meltdown_controlbutton disabled"><span unselectable="on">Code</span></li><li data-original-title="Highlight" title="" class="meltdown_control-highlight meltdown_control meltdown_controlbutton disabled"><span unselectable="on">Highlight</span></li><li data-original-title="Table" title="" class="meltdown_control-table meltdown_control meltdown_controlbutton disabled"><span unselectable="on">Table</span></li></ul><ul class="meltdown_controls meltdown_controls_preview"><li data-original-title="Toggle Preview" title="" class="meltdown_control-preview meltdown_control meltdown_controlbutton disabled"><span>Preview</span></li></ul></div><div class="meltdown_editor-wrap"><div class="meltdown_editor-deco"><textarea style="overflow: hidden; word-wrap: break-word; resize: none; height: 120px;" disabled="disabled" name="comment[content]" id="comment_content" placeholder="Leave a comment..." class="js-comment-content tutorial-comment-field meltdown_editor" data-markdown="true"></textarea></div></div><div class="meltdown_preview-wrap"><div class="meltdown_preview-wrap2"><div class="meltdown_preview-error-message">Could not load preview. <a href="#">Try again</a></div><div class="meltdown_preview-loading-message">Loading preview...</div><div class="meltdown_preview content-body"></div></div></div><div class="meltdown_bottommargin"></div></div>
+
+      <div class="log-in-notice "><a href="https://www.digitalocean.com/community/auth/digitalocean">Log In to Comment</a></div>
+
+    <div class="clearfix"></div>
+</form></div>
+
+  <div class="comments">
+    <ul class="response-list">
+          <a class="hidden" rel="nofollow" data-remote="true" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04/comments">Load</a>
+    <li style="" class="response    " id="comment_12623">
+    <div class="moderation-actions small comment-moderation inline">
+      <ul id="moderate_12623" class="">
+        
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="response-avatar comment-response-avatar">
+      <a href="https://www.digitalocean.com/community/users/sritechie26"><img alt="sritechie26" class="avatar avatar-small" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/8ffc15265e3b51c6f9ab23bc9e56aaae.png" height="80" width="80"></a>
+    </div>
+
+    <div>
+      <span class="response-name"><a class="username" href="https://www.digitalocean.com/community/users/sritechie26">sritechie26</a></span>
+      <span class="response-time"><a rel="nofollow" class="post-time-link" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=12623">April 29, 2014</a></span>
+
+      
+    </div>
+
+        <div class="response-body content-body legacy">libexpat1-dev gettext unzip is not working!!
+use the following command and install git:
+sudo apt-get install libexpat1-dev</div>
+
+    
+
+    <div class="spinner spinner-large">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+  
+</div>
+
+
+    <div class="content-actions">
+  <div class="upvotes comment-upvote"><form data-upvotable="comment_12623" data-upvotable-type="comment" class="upvote-form upvote signed-out-upvote" action="/community/upvotes/toggle?upvote%5Bupvotable_id%5D=12623&amp;upvote%5Bupvotable_type%5D=Comment" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="OSm54+u1IUxhnuQ6/6Vau5xuISedTn8Odnjuvjb/vSyzlejpfbLiMYi5qbDrnUOEUAvOxE71bWehlsBHw4xzWQ==" type="hidden">
+    <button type="submit" disabled="disabled" data-toggle="modal" data-target="#sign-in-modal"><span class="icon-upvote-heart-small upvote-heart" data-toggle="modal" data-target="#sign-in-modal" data-return-url="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=12623" title="Do you find this post helpful? Show the author by Hearting it!" data-placement="top"></span></button>
+
+</form><span class="upvote-text"><span class="hearted-text">Hearted</span><span class="heart-text">Heart</span></span><div class="upvote-count hidden">0</div></div>
+
+
+  
+</div>
+
+
+    <div class="response-comments">
+      <div class="comment commentable" id="comment_12623">
+
+
+  <div class="comments">
+    <ul class="response-list">
+      
+    </ul>
+  </div>
+
+
+  <div id="reply_anchor_comment_12623"></div>
+</div>
+    </div>
+
+    <div class="clear"></div>
+  </li>
+
+      <li style="" class="response    " id="comment_17155">
+    <div class="moderation-actions small comment-moderation inline">
+      <ul id="moderate_17155" class="">
+        
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="response-avatar comment-response-avatar">
+      <a href="https://www.digitalocean.com/community/users/vasyl"><img alt="vasyl" class="avatar avatar-small" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/52d6d71dfd07fb20b8caaa1025473091.png" height="80" width="80"></a>
+    </div>
+
+    <div>
+      <span class="response-name"><a class="username" href="https://www.digitalocean.com/community/users/vasyl">vasyl</a></span>
+      <span class="response-time"><a rel="nofollow" class="post-time-link" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=17155">September  1, 2014</a></span>
+
+      
+    </div>
+
+        <div class="response-body content-body "><p>A better way is here http://stackoverflow.com/questions/19109542/installing-latest-version-of-git-in-ubuntu</p>
+
+<p>Simply</p>
+<pre class="code-pre "><code langs="">sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+</code></pre></div>
+
+    
+
+    <div class="spinner spinner-large">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+  
+</div>
+
+
+    <div class="content-actions">
+  <div class="upvotes upvoted comment-upvote"><form data-upvotable="comment_17155" data-upvotable-type="comment" class="upvote-form upvote signed-out-upvote" action="/community/upvotes/toggle?upvote%5Bupvotable_id%5D=17155&amp;upvote%5Bupvotable_type%5D=Comment" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="+6XIYCTljo+sgMYf04X4tayvZA7mk1QI/A29G2AaIplxGZlqsuJN8kWni5XHveGKYMqL7TUoRmEr45PilWns7A==" type="hidden">
+    <button type="submit" disabled="disabled" data-toggle="modal" data-target="#sign-in-modal"><span class="icon-upvote-heart-small upvote-heart" data-toggle="modal" data-target="#sign-in-modal" data-return-url="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=17155" title="Do you find this post helpful? Show the author by Hearting it!" data-placement="top"></span></button>
+
+</form><span class="upvote-text"><span class="hearted-text">Hearted</span><span class="heart-text">Heart</span></span><div class="upvote-count ">4</div></div>
+
+
+  
+</div>
+
+
+    <div class="response-comments">
+      <div class="comment commentable" id="comment_17155">
+
+
+  <div class="comments">
+    <ul class="response-list">
+      
+    </ul>
+  </div>
+
+
+  <div id="reply_anchor_comment_17155"></div>
+</div>
+    </div>
+
+    <div class="clear"></div>
+  </li>
+
+      <li style="" class="response    " id="comment_35288">
+    <div class="moderation-actions small comment-moderation inline">
+      <ul id="moderate_35288" class="">
+        
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="response-avatar comment-response-avatar">
+      <a href="https://www.digitalocean.com/community/users/einarc"><img alt="einarc" class="avatar avatar-small" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/47d46c312bc32e53d93780ad9b2b9627.png" height="80" width="80"></a>
+    </div>
+
+    <div>
+      <span class="response-name"><a class="username" href="https://www.digitalocean.com/community/users/einarc">einarc</a></span>
+      <span class="response-time"><a rel="nofollow" class="post-time-link" href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=35288">1 day ago</a></span>
+
+      
+    </div>
+
+        <div class="response-body content-body "><p>You DON'T want to 
+compile against gnu-tls because is full of bugs and it won't work on 
+certain network configurations, i.e. EsXi.<br>
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=741293</p>
+
+<p>Do this instead:<br>
+http://askubuntu.com/questions/186847/error-gnutls-handshake-failed-when-connecting-to-https-servers</p>
+</div>
+
+    
+
+    <div class="spinner spinner-large">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+  
+</div>
+
+
+    <div class="content-actions">
+  <div class="upvotes comment-upvote"><form data-upvotable="comment_35288" data-upvotable-type="comment" class="upvote-form upvote signed-out-upvote" action="/community/upvotes/toggle?upvote%5Bupvotable_id%5D=35288&amp;upvote%5Bupvotable_type%5D=Comment" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="KfE2TbDAkROrlhiI0tG/Nscc74H5Q0CWvq0ILaGxsiijTWdHJsdSbkKxVQLG6aYJC3kAYir4Uv9pQybUVMJ8XQ==" type="hidden">
+    <button type="submit" disabled="disabled" data-toggle="modal" data-target="#sign-in-modal"><span class="icon-upvote-heart-small upvote-heart" data-toggle="modal" data-target="#sign-in-modal" data-return-url="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04?comment=35288" title="Do you find this post helpful? Show the author by Hearting it!" data-placement="top"></span></button>
+
+</form><span class="upvote-text"><span class="hearted-text">Hearted</span><span class="heart-text">Heart</span></span><div class="upvote-count hidden">0</div></div>
+
+
+  
+</div>
+
+
+    <div class="response-comments">
+      <div class="comment commentable" id="comment_35288">
+
+
+  <div class="comments">
+    <ul class="response-list">
+      
+    </ul>
+  </div>
+
+
+  <div id="reply_anchor_comment_35288"></div>
+</div>
+    </div>
+
+    <div class="clear"></div>
+  </li></ul>
+
+      <div style="display: none;" class="comments-spinner"><div class="spinner spinner-large">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+  
+</div>
+</div>
+  </div>
+
+
+  <div class="load-more-container"></div>
+</div>
+
+  </div>
+</div>
+
+<div class="creative-commons">
+  <a class="creative-commons-image" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img rel="license" alt="Creative Commons License" src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/creativecommons-73205ed249d4b5109a7905503766d325.png"></a>
+    <div class="license-text">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</div>
+</div>
+
+
+
+
+
+        <div class="clearfix"></div>
+    	</div>
+
+    	<footer class="footer">
+  <div class="footer-icon">
+    <span class="icon icon-sammy"></span>
+  </div>
+
+  <div class="copyright">
+    Copyright © 2015 DigitalOcean™ Inc.
+  </div>
+
+  <ul class="main-nav-links">
+    <li><a href="https://www.digitalocean.com/community">Community</a></li>
+    <li><a href="https://www.digitalocean.com/community/tutorials">Tutorials</a></li>
+    <li><a href="https://www.digitalocean.com/community/questions">Questions</a></li>
+    <li><a href="https://www.digitalocean.com/community/projects">Projects</a></li>
+    <li><a href="https://www.digitalocean.com/community/tags">Tags</a></li>
+    <li>
+      <a href="https://www.digitalocean.com/community/tutorials/feed">
+        RSS <span class="icon-rss"></span>
+</a>    </li>
+  </ul>
+
+  <br>
+
+  <ul class="secondary-nav-links">
+
+    <li><a href="https://www.digitalocean.com/legal/terms/">Terms, Privacy, &amp; Copyright</a></li>
+    <li><a href="https://www.digitalocean.com/security/">Security</a></li>
+    <li><a data-toggle="modal" data-target="#report-a-bug-modal" href="#">Report a Bug</a></li>
+    <li><a href="https://www.digitalocean.com/community/get-paid-to-write">Get Paid to Write</a></li>
+  </ul>
+</footer>
+
+
+
+
+
+    <div id="sign-in-modal" class="modal fade mini-modal" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>Sign Up</h1>
+        <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+      </div>
+      <div class="modal-body">
+        <div class="sign-in-message">Not so fast, you must have an account before you can do that.</div>
+
+        <div class="sign-in-modal-actions">
+          <a class="sign-in-link button blue-button" data-default-url="/community/auth/digitalocean" href="https://www.digitalocean.com/community/auth/digitalocean">Log In</a>
+          <a class="sign-up-link button green-button" data-default-url="/community/auth/digitalocean?display=sessionless+register" href="https://www.digitalocean.com/community/auth/digitalocean?display=sessionless+register">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  <script>
+    $(function() {
+      init_sharing();
+    });
+  </script>
+
+  <div id="report-a-bug-modal" class="modal fade mini-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Report a Bug</h1>
+          <a class="close-button" data-dismiss="modal" href=""><span class="icon icon-close-light"></span></a>
+        </div>
+        <div class="modal-body">
+          <div class="report-a-bug-message text-center">Use this form to report bugs related to the Community</div>
+          <div class="report-a-bug-actions do-form">
+            <div class="form-wrap">
+              <form class="new_bug_report" id="new_bug_report" action="/community/bug_reports" accept-charset="UTF-8" method="post"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="jDenKWxUDfd8/bvpKRbwPTN9AYqpB0OhGc5rGSkTz1oGi/Yj+lPOipXa9mM9LukC/xjuaXq8UcjOIEXg3GABLw==" type="hidden">
+                <fieldset>
+                  <div class="field">
+                    <input placeholder="Name" name="bug_report[name]" id="bug_report_name" type="text">
+                  </div>
+                  <div class="field">
+                    <input placeholder="Email" required="required" name="bug_report[email]" id="bug_report_email" type="text">
+                  </div>
+                  <div class="field">
+                      <textarea style="overflow: hidden; word-wrap: break-word; resize: none; height: 125px;" placeholder="Message" required="required" name="bug_report[message]" id="bug_report_message"></textarea>
+                  </div>
+
+                  <div class="field actions">
+                    <input name="commit" value="Submit" class="button" type="submit">
+                  </div>
+                </fieldset>
+</form>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+<textarea id="autosizejs" class="autosizejs" tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px none; padding: 0px; box-sizing: content-box; word-wrap: break-word; height: 0px ! important; min-height: 0px ! important; overflow: hidden; transition: none 0s ease 0s ; font-family: &quot;proxima-nova&quot;,sans-serif; font-size: 17px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 23.8px; width: 58px;">Message
+</textarea><a style="position: fixed; z-index: 2147483647; display: block;" href="#top" id="scrollUp">Scroll to top</a><div style="position: absolute; top: 300px; width: 100%; border-top: 1px dotted rgb(0, 255, 255); z-index: 2147483647;" id="scrollUp-active"></div><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/X9pYjJn4xhW.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><script id="" type="text/javascript">adroll_custom_data={article_tag:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918100'),tutorial_difficulty:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918101'),content_type:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918102'),author:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918103'),is_community_page:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918104'),user_signed_in:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918105'),user_droplet_count:google_tag_manager["GTM-KHWBBT"].macro('gtm1437562918106')};</script>
+<script id="" type="text/javascript">var _qevents=_qevents||[];(function(){var a=document.createElement("script");a.src=("https:"==document.location.protocol?"https://secure":"http://edge")+".quantserve.com/quant.js";a.async=!0;a.type="text/javascript";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();_qevents.push({qacct:"p-ezk6DY8pwNxCt",labels:"_fp.event.Community"});</script>
+<noscript>
+<img src="//pixel.quantserve.com/pixel/p-ezk6DY8pwNxCt.gif?labels=_fp.event.Community" style="display: none;" border="0" height="1" width="1" alt="Quantcast">
+</noscript>
+<script id="" type="text/javascript">(function(){var a=window._fbq||(window._fbq=[]);if(!a.loaded){var b=document.createElement("script");b.async=!0;b.src="//connect.facebook.net/en_US/fbds.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);a.loaded=!0}a.push(["addPixelId","1428881624071898"])})();window._fbq=window._fbq||[];window._fbq.push(["track","PixelInitialized",{}]);</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1428881624071898&amp;ev=PixelInitialized"></noscript><script id="" type="text/javascript">(function(b,c,e,g,d){var f,a;b[d]=b[d]||[];f=function(){var a={ti:"4047822"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};a=c.createElement(e);a.src=g;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(f(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=4047822&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;"></noscript>
+<script src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/pixel.js" id="" type="text/javascript"></script><div id="batBeacon0.7192581190340811" style="width:0px; height:0px; display:none; visibility:hidden;"><img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/0.asc" id="batBeacon0.11040517002304617" style="width:0px; height:0px; display:none; visibility:hidden;" height="0" width="0"><img src="How%20To%20Install%20Git%20on%20Ubuntu%2014.04%20%7C%20DigitalOcean_files/0_002.asc" id="batBeacon0.18807659918482844" style="width:0px; height:0px; display:none; visibility:hidden;" height="0" width="0"></div>
+</body></html>
