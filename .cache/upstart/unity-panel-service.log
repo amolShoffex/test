@@ -1,8 +1,30 @@
 
-(unity-panel-service:1912): Indicator-Appmenu-WARNING **: Already have a menu for window ID 62914739 with path /com/canonical/menu/3C000B3 from :1.70, unregistering that one
+(unity-panel-service:1899): Indicator-Appmenu-WARNING **: Already have a menu for window ID 62914739 with path /com/canonical/menu/3C000B3 from :1.80, unregistering that one
 
-(unity-panel-service:1912): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
 
-(unity-panel-service:1912): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+(unity-panel-service:1899): Indicator-Appmenu-WARNING **: Already have a menu for window ID 63174893 with path /com/canonical/menu/3C3F8ED from :1.80, unregistering that one
 
-(unity-panel-service:1912): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1899): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed

@@ -13,3 +13,58 @@ Traceback (most recent call last):
 DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
 2015-07-22 23:56:00,450 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
 2015-07-22 23:56:26,222 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-07-24 23:25:31,172 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-07-24 23:25:37,216 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-07-24 23:25:39,103 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-07-24 23:25:39,140 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-07-24 23:25:39,472 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-07-24 23:25:40,292 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-07-24 23:25:40,302 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-07-24 23:25:48,251 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-07-24 23:26:34,039 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-07-26 13:08:13,736 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-07-26 13:08:15,594 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-07-26 13:08:15,992 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-07-26 13:08:16,012 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-07-26 13:08:16,114 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-07-26 13:08:20,780 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-07-26 13:08:22,871 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-07-26 13:08:22,881 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-07-26 13:08:23,873 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-07-26 13:09:30,334 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-07-26 13:18:00,970 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-07-26 13:18:06,681 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-07-26 13:19:58,304 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-07-26 13:20:03,623 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-07-26 13:21:21,094 - softwarecenter.ui.gtk3.panes.pendingpane - WARNING - transaction cancel failed: org.debian.apt: Could not cancel transaction
+2015-07-26 13:21:27,588 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-07-26 13:21:27,949 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-07-26 13:21:27,951 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-07-26 13:21:28,023 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-07-26 13:21:29,062 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-07-26 13:21:29,062 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-07-26 13:21:31,404 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-07-26 13:21:33,094 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-07-26 13:22:22,022 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0

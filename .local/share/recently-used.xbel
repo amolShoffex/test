@@ -13,13 +13,14 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/amol/Downloads/dev.doc" added="2015-07-22T16:55:41Z" modified="2015-07-22T16:57:03Z" visited="2015-07-22T16:55:41Z">
+  <bookmark href="file:///home/amol/Downloads/dev.doc" added="2015-07-22T16:55:41Z" modified="2015-07-23T07:43:10Z" visited="2015-07-22T16:55:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/msword"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-22T16:55:41Z" count="1"/>
-          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-22T16:57:03Z" count="6"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-23T07:43:10Z" count="9"/>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2015-07-23T07:43:05Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -33,6 +34,1823 @@
         </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-22T19:23:07Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/test/README" added="2015-07-22T19:54:02Z" modified="2015-07-22T20:04:38Z" visited="2015-07-22T19:54:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-22T20:04:38Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/test/pass" added="2015-07-22T20:03:54Z" modified="2015-07-23T11:08:21Z" visited="2015-07-22T20:03:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-23T11:08:21Z" count="61"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/GITcommands" added="2015-07-22T20:29:14Z" modified="2015-07-22T20:29:14Z" visited="2015-07-22T20:29:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-22T20:29:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/GITcommands.odt" added="2015-07-22T20:29:15Z" modified="2015-07-23T07:58:20Z" visited="2015-07-22T20:29:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-23T07:58:20Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2015-07-23T07:18:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/test/file1" added="2015-07-23T05:35:54Z" modified="2015-07-23T10:35:24Z" visited="2015-07-23T05:35:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-23T10:35:24Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/pass" added="2015-07-23T07:11:11Z" modified="2015-07-23T07:11:11Z" visited="2015-07-23T07:11:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-23T07:11:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/test/file5" added="2015-07-23T07:47:54Z" modified="2015-07-23T07:51:29Z" visited="2015-07-23T07:47:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-23T07:51:29Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Software/1.AShoffex.com/Name.docx" added="2015-07-23T14:04:20Z" modified="2015-07-24T04:56:19Z" visited="2015-07-23T14:04:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2015-07-24T04:56:16Z" count="2"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-07-24T04:56:19Z" count="8"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-24T04:55:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://[usb:003,008]/SD%20card/QieZi/videos/1H4nuM4nBh41.mkv" added="2015-07-23T15:45:09Z" modified="2015-07-23T15:45:11Z" visited="2015-07-23T15:45:09Z">
+    <title>1H4nuM4nBh41.mkv</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;totem %U&apos;" modified="2015-07-23T15:45:09Z" count="1"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2015-07-23T15:45:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp1.py" added="2015-07-24T05:51:06Z" modified="2015-07-24T06:03:59Z" visited="2015-07-24T05:51:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T06:03:59Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp2.py" added="2015-07-24T06:07:43Z" modified="2015-07-24T06:12:42Z" visited="2015-07-24T06:07:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T06:12:42Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp3.py" added="2015-07-24T06:15:13Z" modified="2015-07-24T06:38:38Z" visited="2015-07-24T06:15:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T06:38:38Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp4.py" added="2015-07-24T06:38:48Z" modified="2015-07-24T06:51:44Z" visited="2015-07-24T06:38:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T06:51:44Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp5.py" added="2015-07-24T06:55:17Z" modified="2015-07-24T07:06:24Z" visited="2015-07-24T06:55:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T07:06:24Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp6.py" added="2015-07-24T07:13:37Z" modified="2015-07-24T07:29:26Z" visited="2015-07-24T07:13:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T07:29:26Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp7.py" added="2015-07-24T07:33:33Z" modified="2015-07-24T07:45:10Z" visited="2015-07-24T07:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T07:45:10Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/logo%20copy.JPG" added="2015-07-24T07:36:05Z" modified="2015-07-24T07:36:07Z" visited="2015-07-24T07:36:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-24T07:36:05Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-24T07:36:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/Untitled-3-Recovered%20copy.jpg" added="2015-07-24T07:37:28Z" modified="2015-07-24T07:37:32Z" visited="2015-07-24T07:37:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-24T07:37:28Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-24T07:37:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp8.py" added="2015-07-24T08:44:58Z" modified="2015-07-24T08:59:50Z" visited="2015-07-24T08:44:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T08:59:50Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp9.py" added="2015-07-24T09:00:05Z" modified="2015-07-24T09:06:48Z" visited="2015-07-24T09:00:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T09:06:48Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp10.py" added="2015-07-24T09:13:13Z" modified="2015-07-24T09:25:20Z" visited="2015-07-24T09:13:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T09:25:20Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp11.py" added="2015-07-24T09:32:26Z" modified="2015-07-24T09:35:54Z" visited="2015-07-24T09:32:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T09:35:54Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp12.py" added="2015-07-24T09:43:32Z" modified="2015-07-24T09:48:29Z" visited="2015-07-24T09:43:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T09:48:29Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp13.py" added="2015-07-24T09:55:54Z" modified="2015-07-24T10:13:55Z" visited="2015-07-24T09:55:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T10:13:55Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp14.py" added="2015-07-24T10:21:29Z" modified="2015-07-24T10:31:07Z" visited="2015-07-24T10:21:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T10:31:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp15_example.txt" added="2015-07-24T10:41:51Z" modified="2015-07-24T10:41:54Z" visited="2015-07-24T10:41:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T10:41:54Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp15.py" added="2015-07-24T10:44:01Z" modified="2015-07-24T10:51:09Z" visited="2015-07-24T10:44:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T10:51:09Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp16.py" added="2015-07-24T11:07:48Z" modified="2015-07-24T11:34:14Z" visited="2015-07-24T11:07:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T11:34:14Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/amol" added="2015-07-24T11:32:05Z" modified="2015-07-24T11:32:05Z" visited="2015-07-24T11:32:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T11:32:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp17.py" added="2015-07-24T11:45:51Z" modified="2015-07-24T12:32:58Z" visited="2015-07-24T11:45:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T12:32:58Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/myfile.txt" added="2015-07-24T11:54:04Z" modified="2015-07-24T11:56:09Z" visited="2015-07-24T11:54:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T11:56:09Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/copy.txt" added="2015-07-24T11:55:57Z" modified="2015-07-24T11:55:57Z" visited="2015-07-24T11:55:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T11:55:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp18.py" added="2015-07-24T12:34:48Z" modified="2015-07-24T12:53:54Z" visited="2015-07-24T12:34:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-24T12:53:54Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/adobe-release-x86_64-1.0-1.noarch.rpm" added="2015-07-24T18:05:23Z" modified="2015-07-24T18:05:27Z" visited="2015-07-24T18:05:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rpm"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-24T18:05:23Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2015-07-24T18:05:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp19.py" added="2015-07-24T19:07:50Z" modified="2015-07-25T05:26:56Z" visited="2015-07-24T19:07:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T05:26:56Z" count="35"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp20.py" added="2015-07-25T05:38:57Z" modified="2015-07-25T05:48:48Z" visited="2015-07-25T05:38:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T05:48:48Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/helo.txt" added="2015-07-25T05:49:25Z" modified="2015-07-25T05:49:50Z" visited="2015-07-25T05:49:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T05:49:50Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp21.py" added="2015-07-25T06:04:04Z" modified="2015-07-25T06:18:53Z" visited="2015-07-25T06:04:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T06:18:53Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp24.py" added="2015-07-25T07:14:36Z" modified="2015-07-25T09:58:05Z" visited="2015-07-25T07:14:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T09:58:05Z" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp25.py" added="2015-07-25T07:47:08Z" modified="2015-07-25T09:57:48Z" visited="2015-07-25T07:47:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T09:57:48Z" count="28"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp25.txt" added="2015-07-25T08:58:25Z" modified="2015-07-25T08:58:25Z" visited="2015-07-25T08:58:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T08:58:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp26.py" added="2015-07-25T09:50:42Z" modified="2015-07-25T10:08:11Z" visited="2015-07-25T09:50:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T10:08:11Z" count="36"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp29.py" added="2015-07-25T10:15:52Z" modified="2015-07-25T10:24:44Z" visited="2015-07-25T10:15:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T10:24:44Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp30,py" added="2015-07-25T10:25:56Z" modified="2015-07-25T10:25:56Z" visited="2015-07-25T10:25:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T10:25:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp30.py" added="2015-07-25T10:27:10Z" modified="2015-07-25T10:36:40Z" visited="2015-07-25T10:27:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T10:36:40Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp31.py" added="2015-07-25T10:39:04Z" modified="2015-07-25T10:57:35Z" visited="2015-07-25T10:39:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T10:57:35Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp32.py" added="2015-07-25T11:01:33Z" modified="2015-07-25T11:16:14Z" visited="2015-07-25T11:01:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T11:16:14Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp33.py" added="2015-07-25T11:25:46Z" modified="2015-07-25T11:31:56Z" visited="2015-07-25T11:25:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T11:31:56Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp35.py" added="2015-07-25T11:38:48Z" modified="2015-07-25T12:09:40Z" visited="2015-07-25T11:38:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-25T12:09:40Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Videos/Movies/bollywood/BAAHUBALI%20(2015)%202CD%20pDVD%20RIP%20-%20XVID%20AC3%205.1%20(UpMix)%20-%20DUS%20(1).avi" added="2015-07-25T12:32:45Z" modified="2015-07-25T12:32:49Z" visited="2015-07-25T12:32:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2015-07-25T12:32:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp38.py" added="2015-07-26T07:32:02Z" modified="2015-07-26T07:45:07Z" visited="2015-07-26T07:32:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-26T07:45:07Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/skype-ubuntu-precise_4.3.0.37-1_i386.deb" added="2015-07-26T07:32:16Z" modified="2015-07-26T07:32:16Z" visited="2015-07-26T07:32:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-26T07:32:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Software/skype-ubuntu-precise_4.3.0.37-1_i386.deb" added="2015-07-26T07:49:57Z" modified="2015-07-26T07:51:27Z" visited="2015-07-26T07:49:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/software-center %u&apos;" modified="2015-07-26T07:51:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp39.py" added="2015-07-26T08:24:22Z" modified="2015-07-26T11:42:21Z" visited="2015-07-26T08:24:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-26T11:42:21Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/DSC03470.JPG" added="2015-07-26T09:41:04Z" modified="2015-07-26T09:41:07Z" visited="2015-07-26T09:41:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-26T09:41:04Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:41:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/farewell/PC/DSC03912.JPG" added="2015-07-26T09:41:48Z" modified="2015-07-26T09:41:55Z" visited="2015-07-26T09:41:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-26T09:41:48Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:41:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/farewell/PC/DSC03871.JPG" added="2015-07-26T09:42:18Z" modified="2015-07-26T09:42:18Z" visited="2015-07-26T09:42:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:42:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/farewell/PC/DSC03870.JPG" added="2015-07-26T09:42:22Z" modified="2015-07-26T09:42:22Z" visited="2015-07-26T09:42:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:42:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/farewell/PC/mobile/IMG_20150331_124033802_HDR.jpg" added="2015-07-26T09:42:36Z" modified="2015-07-26T09:43:10Z" visited="2015-07-26T09:42:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:43:10Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-26T09:43:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/farewell/PC/mobile/IMG_20150331_121852679_HDR.jpg" added="2015-07-26T09:43:01Z" modified="2015-07-26T09:43:01Z" visited="2015-07-26T09:43:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:43:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153536.jpg" added="2015-07-26T09:44:33Z" modified="2015-07-26T09:44:39Z" visited="2015-07-26T09:44:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-26T09:44:33Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153551.jpg" added="2015-07-26T09:44:36Z" modified="2015-07-26T09:44:38Z" visited="2015-07-26T09:44:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:38Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153553.jpg" added="2015-07-26T09:44:37Z" modified="2015-07-26T09:44:38Z" visited="2015-07-26T09:44:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:38Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153613.jpg" added="2015-07-26T09:44:38Z" modified="2015-07-26T09:44:38Z" visited="2015-07-26T09:44:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153531.jpg" added="2015-07-26T09:44:40Z" modified="2015-07-26T09:44:49Z" visited="2015-07-26T09:44:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153509.jpg" added="2015-07-26T09:44:48Z" modified="2015-07-26T09:44:48Z" visited="2015-07-26T09:44:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/Images/Unofficial_Farewell/IMG_20150419_153701.jpg" added="2015-07-26T09:44:54Z" modified="2015-07-26T09:44:54Z" visited="2015-07-26T09:44:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-26T09:44:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/hashmap.py" added="2015-07-26T11:17:12Z" modified="2015-07-26T12:35:38Z" visited="2015-07-26T11:17:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-26T12:35:38Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/exp39d.py" added="2015-07-26T11:42:50Z" modified="2015-07-26T12:26:39Z" visited="2015-07-26T11:42:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-26T12:26:39Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/drw_trial.exe" added="2015-07-26T12:55:13Z" modified="2015-07-26T12:55:13Z" visited="2015-07-26T12:55:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-26T12:55:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/Downloads/Professional.rar" added="2015-07-26T12:59:39Z" modified="2015-07-26T13:00:23Z" visited="2015-07-26T12:59:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-07-26T12:59:39Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2015-07-26T13:00:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/SYSRECOVERY/TED%202/Ted%202%202015%20UNCENSORED%201080p%20HC%20HDRip%20x264%20AAC-JYK.mkv" added="2015-07-26T13:31:44Z" modified="2015-07-26T13:31:49Z" visited="2015-07-26T13:31:44Z">
+    <title>Ted 2 2015 UNCENSORED 1080p HC HDRip x264 AAC-JYK.mkv</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;totem %U&apos;" modified="2015-07-26T13:31:44Z" count="1"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2015-07-26T13:31:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp2.py" added="2015-07-27T05:18:43Z" modified="2015-07-27T05:18:43Z" visited="2015-07-27T05:18:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T05:18:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp40.py" added="2015-07-27T05:19:36Z" modified="2015-07-27T05:34:35Z" visited="2015-07-27T05:19:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T05:34:35Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp41_oop.py" added="2015-07-27T05:53:36Z" modified="2015-07-27T06:55:29Z" visited="2015-07-27T05:53:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T06:55:29Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/english" added="2015-07-27T06:47:53Z" modified="2015-07-27T06:48:13Z" visited="2015-07-27T06:47:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T06:48:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp42.py" added="2015-07-27T07:07:09Z" modified="2015-07-27T09:51:15Z" visited="2015-07-27T07:07:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T09:51:15Z" count="27"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp43.py" added="2015-07-27T09:53:21Z" modified="2015-07-27T11:30:22Z" visited="2015-07-27T09:53:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T11:30:22Z" count="69"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/vlc-record-2014-04-25-20h28m29s-Kotha%20Bangaru%20Lokam(2008).mp4-.wav" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:22:59Z" visited="2015-07-27T11:19:08Z">
+    <title>vlc-record-2014-04-25-20h28m29s-Kotha Bangaru Lokam(2008).mp4-.wav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/x-wav"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;totem %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2015-07-27T11:22:59Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Baby%20Doll%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20BR%20-%20Party%20To%20Banti%20Hai%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:22:21Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:22:21Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Caller%20Tune%20(Humshakals)%20-190Kbps%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Dil%20Chahta%20Hai-(MyMp3Singer.com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Galliyan%20(Ek%20Villain)%20-%20190Kbps%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Happy%20Ending%20-%20Mileya%20Mileya%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Jackpot%20-%20Kabhi%20Jo%20Baadal%20Barse%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Kuch%20Toh%20Hua%20Hai%20(Singham%20Returns)%20-190Kbps%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Mauli%20Mauli%20-%20MarathiMp3.In.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Muskurane%20-%20Citylights%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:23:11Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2015-07-27T11:23:11Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Saturday%20Saturday%20-HSKD%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/01%20-%20Ungli%20-%20Dance%20Basanti%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Armaan%20-%20Bas%20Is%20Pal%20Mein%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-Banjaara%20(Ek%20Villain)%20-190Kbps%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Hangover%20-%20Kick%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Locha-E-Ulfat%20-%202%20States%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20Love%20Is%20a%20Waste%20of%20Time%20-%20PK%20192kbps.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20MTH%20-%20Palat%20(Tera%20Hero%20Idhar%20Hai)%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02_Palat_-_Tera_Hero_Idhar_Hai_FreshMaza.Info_.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Piya%20Ke%20Bazaar%20-%20Humshakals%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20PK%20-%20Nanga%20Punga%20Dost%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20SAC%20-%20Shukr%20Tera%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20TN21%20-%20Mann%20Mera%20%5BMP3Khan%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Tu%20Hi%20Hai%20Aashiqui%20(Dishkiyaoon)%20%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/02%20-%20Youngistaan%20-%20Mere%20Khuda%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20-%20Bewakoofiyaan%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20Hai%20Apna%20Dil%20Toh%20Awara%20-%20The%20Xpose%20(Yo%20Yo%20Honey%20Singh).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20-%20Happy%20Ending%20-%20Jaise%20Mera%20Tu%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20-%20Maine%20Khud%20Ko%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20Mast%20Magan%20-2%20States%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20Party%20With%20Bhoothnath%20-%20Yo%20Yo%20Honey%20Singh%20(PagalWorld.com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20-%20%20Tauba%20Main%20Vyaah%20Karke%20Pachtaya%20%5BFreshMaza%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/03%20-%20Tu%20Hi%20Tu%20-%20Kick%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/04%20-%20Happy%20Ending%20-%20G%20Phaad%20Ke%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/04%20-%20Yaar%20Naa%20Miley%20-%20Kick%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/05%20O%20Humnavaa%20(Gajendra%20Verma).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/05%20Sapne%20-%20Shraddha%20Sharma%20%5BPagalWorld.com%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/06%20-%20Hulla%20Re%20-%20-%202%20States%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/06%20%20%20Tere%20Binaa%20-%20-%20Heropanti%20%5BFreshMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/09.Allah%20Allah%20(Qawali).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Aabhi%20Jaa%20(Raunaq)%20-%20320Kbps%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Aaja-We-Mahiya-(Tomasha.com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Baarish%20(Yaariyan)%20-320Kbps%20%5BDJMaza%5D%20(1).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/baby_edit.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/collegedays02(www.songs.pk).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Daatale%20Reshami%20(MoBiLeKiDa.CoM).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Dard%20Dilo%20Ke%20-%20The%20Xpose%20(%20Full%20Song%20).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/diltohbachahaiji01(www.songs.pk).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Ek%20Galti(Shivai)%20(Sad%20Song)-(MirchiFun.c.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/emptiness-female.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/ETD%20-%20Yaaram%20%5BDJMaza%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/gangnam%20style.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Hangover%20(Kick)(songsclub.net).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/ihateluvstorys02.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Indiawaale%20-%20%20Happy%20New%20Year%20%20%5BFreshMaza.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Jashn-E-Ishqa%20(Gunday)%20-%20190Kbps%20%5BFreshMaza.Info%5D_2.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Johnny%20Johnny%20(It&apos;s%20Entertainment)%20-320Kbps%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Jumme%20Ki%20Raat%20(Kick)%20-190Kbps%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/kasak.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Kesamadhi%20gajra%20Power%20Electro%20Mix%20Dj%20Lucky(VipMarathi.Com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Main%20Hoon%20(Sanam)%20-%20The%20Amazing%20Spider-Man%202%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/My%20heart%20will%20go%20on%20performed%20by%20celine%20dion.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Old_Days_-_(FreshMaZa.Net.In).mp3.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Rangrezz%20-%20Dil%20Ko%20Aaya%20Sukoon%20%5BMP3Khan%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/roya%20re.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Roya%20Re%20(Shiraz%20Uppal)%20(Muzikwar.Com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/%5BSongs.PK%5D%2005%20-%20Zehnaseeb.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Sooraj%20Dooba%20Hai%20(Roy)%20-%20Arijit%20Singh%20-190Kbps%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Tu%20Hai%20Ki%20Nahi%20(Roy)%20-%20Ankit%20Tiwari%20-190Kbps%20%5BDJMaza.Info%5D.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Tu%20Meri%20(Bang%20Bang)%20-190Kbps%20%5BFreshMaza.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Valentaine%20Mashup.MP3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Valentine%20Mashup%202014%20-%20Kiran%20kamat.mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Yaaron%20Dosti%20(Rework%20And%20Remaster%20Edition)-(MyMp3Singer.com).mp3" added="2015-07-27T11:19:07Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/AlbumArtSmall.jpg" added="2015-07-27T11:19:08Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-07-27T11:19:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/AlbumArtSmall%20(2).jpg" added="2015-07-27T11:19:08Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Folder.jpg" added="2015-07-27T11:19:08Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/amol/Entertainment/System%20Volume%20Information/Mp3/2014/Folder%20(2).jpg" added="2015-07-27T11:19:08Z" modified="2015-07-27T11:21:39Z" visited="2015-07-27T11:19:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-07-27T11:21:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp44inr1.py" added="2015-07-27T12:00:43Z" modified="2015-07-27T12:17:12Z" visited="2015-07-27T12:00:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T12:17:12Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/amol/python_Experiments/exp44Comp.py" added="2015-07-27T12:25:50Z" modified="2015-07-27T12:49:57Z" visited="2015-07-27T12:25:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-07-27T12:49:57Z" count="35"/>
         </bookmark:applications>
       </metadata>
     </info>

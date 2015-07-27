@@ -1,25 +1,37 @@
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+
+(unity-scope-home:2392): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+
+(process:2409): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/amol/.gtk-bookmarks': No such file or directory
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
 Activating service name='com.canonical.Unity.Webapps.Service'
 Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-common 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml-doc 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml-examples 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-service 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-amazoncloudreader 
 
 ** Message: Investigating webapp: unity-webapps-bbcnews 
@@ -31,7 +43,7 @@ Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-dev 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-deviantart 
 
 ** Message: Investigating webapp: unity-webapps-facebookmessenger 
@@ -41,7 +53,7 @@ Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-googleplusgames 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-grooveshark 
 
 ** Message: Investigating webapp: unity-webapps-hulu-player 
@@ -65,7 +77,7 @@ Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-qml-autopilot 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qq-mail 
 
 ** Message: Investigating webapp: unity-webapps-reddit 
@@ -93,15 +105,15 @@ Successfully activated service 'com.canonical.Unity.Webapps.Service'
 ** Message: Investigating webapp: unity-webapps-qml 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-qml-examples 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-service 
 
 
-** (process:2372): WARNING **: Found newline before all of metadata, skipping app
+** (process:2479): WARNING **: Found newline before all of metadata, skipping app
 ** Message: Investigating webapp: unity-webapps-gmail 
 
 ** Message: Investigating webapp: unity-webapps-googlecalendar 
@@ -116,33 +128,167 @@ Successfully activated service 'com.canonical.Unity.Webapps.Service'
 
 ** Message: Investigating webapp: unity-webapps-youtube 
 
-Activating service name='com.ubuntu.sso'
-Successfully activated service 'com.ubuntu.sso'
-Activating service name='org.freedesktop.Geoclue.Master'
-Successfully activated service 'org.freedesktop.Geoclue.Master'
-** Message: GSettings key 'gps-baudrate' initialised to '0'
-** Message: GSettings key 'gps-device' initialised to '(null)'
-Activating service name='org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
-Successfully activated service 'org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
-Activating service name='com.canonical.Unity.Scope.Home'
-Successfully activated service 'com.canonical.Unity.Scope.Home'
-
-(unity-scope-home:2609): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
-Activating service name='com.canonical.Unity.Scope.Applications'
 Activating service name='com.canonical.Unity.Scope.File.Gdrive'
-Activating service name='com.canonical.Unity.Scope.LocalFiles'
-
-(process:2626): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/amol/.gtk-bookmarks': No such file or directory
-Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
-Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
-Successfully activated service 'com.canonical.Unity.Scope.Applications'
 Activating service name='com.canonical.Unity.Scope.Music'
 Successfully activated service 'com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
 
-(unity-music-daemon:2670): unity-music-daemon-WARNING **: rhythmbox-collection.vala:510: Unable to open album-art DB!
+(unity-music-daemon:3325): unity-music-daemon-WARNING **: rhythmbox-collection.vala:510: Unable to open album-art DB!
 
-(unity-music-daemon:2670): unity-music-daemon-WARNING **: rhythmbox-collection.vala:574: Error while parsing rhythmbox DB: Error opening file: No such file or directory
+(unity-music-daemon:3325): unity-music-daemon-WARNING **: rhythmbox-collection.vala:574: Error while parsing rhythmbox DB: Error opening file: No such file or directory
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): libunity-WARNING **: unity-aggregator-scope.vala:145: Error serializing GVariant with type string 'mv' to the D-Bus wire format
+
+(unity-scope-home:2392): libunity-WARNING **: unity-aggregator-scope.vala:145: Error serializing GVariant with type string 'mv' to the D-Bus wire format
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/amol/.cache/oneconf/12f853d094667b5030e06c3355afc3d9/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
 Activating service name='org.gtk.vfs.Metadata'
 Successfully activated service 'org.gtk.vfs.Metadata'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Scope.Academic.Zotero'
+Successfully activated service 'com.canonical.Unity.Scope.Academic.Zotero'
 module-cache-reaper-Message: Reaping abandoned data directories
 module-cache-reaper-Message: Reaping abandoned cache directories
+Activating service name='com.canonical.Unity.Scope.Academic.Zotero'
+Successfully activated service 'com.canonical.Unity.Scope.Academic.Zotero'
+
+** (notify-osd:2005): WARNING **: stack_display_position_sync_bubble(): Top slot taken!
+
+
+(unity-scope-home:2392): unity-scope-home-WARNING **: scope.vala:849: Remote search failed: Request failed with error 2
+
+** (zeitgeist-fts:2298): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+(unity-music-daemon:3325): GLib-GIO-WARNING **: Missing callback called fullpath = /home/amol/.local/share/rhythmbox/rhythmdb.xml
+
+
+(unity-music-daemon:3325): GLib-GIO-WARNING **: Missing callback called fullpath = /home/amol/.cache/rhythmbox/album-art/store.tdb
+
+Activating service name='org.freedesktop.PackageKit'
+INFO:Starting service
+Successfully activated service 'org.freedesktop.PackageKit'
+INFO:InstallGstreamerResources() was called: 75497479, dbus.Array([dbus.UTF8String('MPEG-1 Layer 3 (MP3) decoder|gstreamer1.0(decoder-audio/mpeg)(mpegversion=(int)1)(mpegaudioversion=(int)1)(layer=(int)3)(parsed=(boolean)true)')], signature=dbus.Signature('s')), hide-finished
+DEBUG:Updating last_timestamp
+DEBUG:Checking for inactivity (30s)
+DEBUG:Checking for inactivity (60s)
+DEBUG:Checking for inactivity (90s)
+DEBUG:Checking for inactivity (120s)
+
+** (zeitgeist-fts:2298): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+INFO:InstallGstreamerResources() was called: 69206023, dbus.Array([dbus.UTF8String('MPEG-1 Layer 3 (MP3) decoder|gstreamer1.0(decoder-audio/mpeg)(mpegversion=(int)1)(mpegaudioversion=(int)1)(layer=(int)3)(parsed=(boolean)true)')], signature=dbus.Signature('s')), hide-finished
+DEBUG:Updating last_timestamp
+DEBUG:Checking for inactivity (10s)
+DEBUG:Updating last_timestamp
+
+** (zeitgeist-fts:2298): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+DEBUG:Checking for inactivity (16s)
+INFO:InstallGstreamerResources() was called: 69206023, dbus.Array([dbus.UTF8String('MPEG-1 Layer 3 (MP3) decoder|gstreamer1.0(decoder-audio/mpeg)(mpegversion=(int)1)(mpegaudioversion=(int)1)(layer=(int)3)(parsed=(boolean)true)')], signature=dbus.Signature('s')), hide-finished
+DEBUG:Updating last_timestamp
+DEBUG:Updating last_timestamp
+DEBUG:Checking for inactivity (20s)
+
+** (zeitgeist-fts:2298): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+DEBUG:Checking for inactivity (50s)
+DEBUG:Checking for inactivity (80s)
+DEBUG:Checking for inactivity (110s)
+DEBUG:Checking for inactivity (140s)
+DEBUG:Checking for inactivity (170s)
+DEBUG:Checking for inactivity (200s)
+DEBUG:Checking for inactivity (230s)
+DEBUG:Checking for inactivity (260s)
+DEBUG:Checking for inactivity (290s)
+DEBUG:Checking for inactivity (320s)
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+DEBUG:Checking for inactivity (350s)
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+DEBUG:Checking for inactivity (380s)
+DEBUG:Updating last_timestamp
+DEBUG:Checking for inactivity (21s)
+DEBUG:Checking for inactivity (51s)
+DEBUG:Checking for inactivity (81s)
+DEBUG:Checking for inactivity (111s)
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/amol/.cache/oneconf/12f853d094667b5030e06c3355afc3d9/other_hosts'
+DEBUG:Checking for inactivity (141s)
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+DEBUG:Checking for inactivity (171s)
+DEBUG:Checking for inactivity (201s)
+INFO:Shutting down because of inactivity
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+
+(unity-scope-home:2392): Json-CRITICAL **: json_object_get_object_member: assertion 'node != NULL' failed
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/amol/.cache/oneconf/12f853d094667b5030e06c3355afc3d9/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'

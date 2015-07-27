@@ -1,21 +1,21 @@
 status: 200
-content-length: 2620068
-via: 1.1 juju-prod45-u1-sca-machine-7 (squid/3.3.8)
-x-cache: HIT from juju-prod45-u1-sca-machine-7
+content-length: 2620065
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+x-cache: HIT from sumac.canonical.com
 content-language: en
-age: 334
-expires: Wed, 22 Jul 2015 18:30:29 GMT
+age: 373
+expires: Sun, 26 Jul 2015 07:55:22 GMT
 vary: Authorization,Accept-Encoding,Accept-Language,Cookie
 -content-encoding: gzip
-server: gunicorn/17.5
-last-modified: Wed, 22 Jul 2015 18:20:29 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sun, 26 Jul 2015 07:45:22 GMT
 connection: close
-etag: "40f0347e66e070bbeb24b0c3da030968"
+etag: "1210522acf4b271ba1af0255cfb0d71f"
 x-bzr-revision-number: 2199
 cache-control: max-age=600
-date: Wed, 22 Jul 2015 18:20:29 GMT
+date: Sun, 26 Jul 2015 07:45:21 GMT
 content-type: application/json; charset=utf-8
-x-cache-lookup: HIT from juju-prod45-u1-sca-machine-7:3128
+x-cache-lookup: HIT from sumac.canonical.com:3128
 content-location: http://software-center.ubuntu.com/api/2.0/applications/en/ubuntu/trusty/amd64/
 -varied-accept-encoding: gzip, deflate
 
@@ -19972,6 +19972,48 @@ content-location: http://software-center.ubuntu.com/api/2.0/applications/en/ubun
         "archive_root": "https://private-ppa.launchpad.net/"
     }, 
     {
+        "status": "Published", 
+        "package_name": "bloodrunner", 
+        "video_embedded_html_urls": [
+            "http://myapps.developer.ubuntu.com/dev/apps/2510/video/078ee6c1cd7471d99fd3617499b4cd64819281df/"
+        ], 
+        "demo": null, 
+        "keywords": "arcade,racer,biology,inner,body,blood,runner,flying,racing", 
+        "video_urls": [
+            "http://vimeo.com/61594280"
+        ], 
+        "screenshot_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__1_.jpg", 
+        "id": 2510, 
+        "archive_id": "commercial-ppa-uploaders/bloodrunner", 
+        "support_url": "http://www.flatcoder.co.uk", 
+        "icon_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed.jpg.png", 
+        "binary_filesize": 71617741, 
+        "version": "0~20130413", 
+        "company_name": "FlatCoder Ltd", 
+        "department": [
+            "Games"
+        ], 
+        "published_id": 830, 
+        "tos_url": "", 
+        "screenshot_urls": [
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__1_.jpg", 
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__2_.jpg"
+        ], 
+        "website": "http://www.flatcoder.co.uk", 
+        "signing_key_id": "33E0E91BDD8E7F4B53837F09E131728675254D99", 
+        "description": "An arcade style race against the clock set inside the human body!\nIn BloodRunner, you play a miniaturized criminal agent, covertly administered to a target host. \r\n\r\nOver 12 beautiful levels you will explore the human body, control the target host and find your escape! \r\n\r\nClive, from \"the agency\", will be your advisor and sole link to the outside world.\r\n\r\nIt's an Arcade style race against the clock, with a twist in the plot!\r\n\r\nYour journey will take you through the blood system, inside a cell nucleus, back out and around the heart, the eyes, the brain, the inner ear, the lungs, and more! Add in a plot with a few twists and turns, and you're in for one great adventure!\r\n\r\nYou'll need sharp reactions to avoid the dangers lurking in the body, and time will always be a pressure!", 
+        "price": "0.00", 
+        "debtags": [
+            "hardware::input:mouse"
+        ], 
+        "date_published": "2013-04-18 15:14:42.141708", 
+        "categories": "Game", 
+        "name": "BloodRunner", 
+        "license": "Proprietary", 
+        "channel": "For Purchase", 
+        "archive_root": "https://private-ppa.launchpad.net/"
+    }, 
+    {
         "website": "http://ubuntistas.ubuntu-gr.org/", 
         "package_name": "ubuntistas-13", 
         "video_embedded_html_urls": [], 
@@ -20156,48 +20198,6 @@ content-location: http://software-center.ubuntu.com/api/2.0/applications/en/ubun
             "http://myapps.developer.ubuntu.com/site_media/appmedia/2012/08/R-22.png", 
             "http://myapps.developer.ubuntu.com/site_media/appmedia/2012/08/R-41.png"
         ], 
-        "archive_root": "https://private-ppa.launchpad.net/"
-    }, 
-    {
-        "website": "http://www.flatcoder.co.uk", 
-        "package_name": "bloodrunner", 
-        "video_embedded_html_urls": [
-            "http://myapps.developer.ubuntu.com/dev/apps/2510/video/078ee6c1cd7471d99fd3617499b4cd64819281df/"
-        ], 
-        "demo": null, 
-        "screenshot_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__1_.jpg", 
-        "video_urls": [
-            "http://vimeo.com/61594280"
-        ], 
-        "keywords": "arcade,racer,biology,inner,body,blood,runner,flying,racing", 
-        "id": 2510, 
-        "archive_id": "commercial-ppa-uploaders/bloodrunner", 
-        "support_url": "http://www.flatcoder.co.uk", 
-        "icon_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed.jpg.png", 
-        "binary_filesize": 71617741, 
-        "version": "0~20130413", 
-        "company_name": "FlatCoder Ltd", 
-        "department": [
-            "Games"
-        ], 
-        "published_id": 830, 
-        "tos_url": "", 
-        "screenshot_urls": [
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__1_.jpg", 
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/unnamed__2_.jpg"
-        ], 
-        "status": "Published", 
-        "signing_key_id": "33E0E91BDD8E7F4B53837F09E131728675254D99", 
-        "description": "An arcade style race against the clock set inside the human body!\nIn BloodRunner, you play a miniaturized criminal agent, covertly administered to a target host. \r\n\r\nOver 12 beautiful levels you will explore the human body, control the target host and find your escape! \r\n\r\nClive, from \"the agency\", will be your advisor and sole link to the outside world.\r\n\r\nIt's an Arcade style race against the clock, with a twist in the plot!\r\n\r\nYour journey will take you through the blood system, inside a cell nucleus, back out and around the heart, the eyes, the brain, the inner ear, the lungs, and more! Add in a plot with a few twists and turns, and you're in for one great adventure!\r\n\r\nYou'll need sharp reactions to avoid the dangers lurking in the body, and time will always be a pressure!", 
-        "price": "0.00", 
-        "debtags": [
-            "hardware::input:mouse"
-        ], 
-        "date_published": "2013-04-18 15:14:42.141708", 
-        "categories": "Game", 
-        "name": "BloodRunner", 
-        "license": "Proprietary", 
-        "channel": "For Purchase", 
         "archive_root": "https://private-ppa.launchpad.net/"
     }, 
     {
@@ -26897,50 +26897,6 @@ content-location: http://software-center.ubuntu.com/api/2.0/applications/en/ubun
         "archive_root": "https://private-ppa.launchpad.net/"
     }, 
     {
-        "status": "Published", 
-        "package_name": "lightmusic:i386", 
-        "video_embedded_html_urls": [
-            "http://myapps.developer.ubuntu.com/dev/apps/4278/video/b77a2a35b00908be6c6560a1b6d1360a4dddbf8a/"
-        ], 
-        "demo": null, 
-        "keywords": "music, player, qml, qt, audacious, keshav, kmusicplay, ubuntu music player, flac,alac, video to audio , lyrics, sqlite, ubuntu touch,lightmusic,", 
-        "video_urls": [
-            "http://vimeo.com/129456424"
-        ], 
-        "screenshot_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_14.png", 
-        "id": 4278, 
-        "archive_id": "commercial-ppa-uploaders/lightmusic", 
-        "support_url": "mailto:keshavnrj@gmail.com", 
-        "icon_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/64.png", 
-        "binary_filesize": 356506, 
-        "version": "2.00", 
-        "company_name": "Ktechpit.org", 
-        "department": [
-            "Sound & Video"
-        ], 
-        "published_id": 1297, 
-        "tos_url": "", 
-        "screenshot_urls": [
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_14.png", 
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_25.png", 
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_11_02.png", 
-            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_11_20.png"
-        ], 
-        "website": "http://www.armybharti.in/lightmusic_ubuntu_keshav_bhatt", 
-        "signing_key_id": "EC63D02697EDFFBE375BBC185CB9D8493D29D438", 
-        "description": "Beautiful and Fast Music Player for Ubuntu \nIf you are looking for a lightweight media player that couples capability with a tiny footprint, lightmusic can be choices that you may wish to take a look at.\r\nLightMusic  comes with interface that is clean and intuitive, since Music Player is almost done using QML it runs with tiny footprint on your system. LightMusic is quick to launch and keeps memory usage fairly low.\r\nDepending on how many songs you load into its library, the RAM requirements can hover close to the 75 MB cutoff that I use as one of the criteria for lightweight.\r\nIts a beta version of app and we are working hard to bring all essential features as soon as possible. \r\nIf you like the application , please feel free to share your view.\r\nThanks.", 
-        "price": "3.00", 
-        "debtags": [
-            "hardware::form-factor:pc"
-        ], 
-        "date_published": "2015-06-03 23:19:29.103975", 
-        "categories": "AudioVideo", 
-        "name": "LightMusic", 
-        "license": "Proprietary", 
-        "channel": "For Purchase", 
-        "archive_root": "https://private-ppa.launchpad.net/"
-    }, 
-    {
         "website": "", 
         "package_name": "mathematics-teacher-pro", 
         "video_embedded_html_urls": [], 
@@ -33266,6 +33222,50 @@ content-location: http://software-center.ubuntu.com/api/2.0/applications/en/ubun
         "screenshot_urls": [
             "http://myapps.developer.ubuntu.com/site_media/appmedia/2013/04/doors_game_2.jpg"
         ], 
+        "archive_root": "https://private-ppa.launchpad.net/"
+    }, 
+    {
+        "status": "Published", 
+        "package_name": "lightmusic:i386", 
+        "video_embedded_html_urls": [
+            "http://myapps.developer.ubuntu.com/dev/apps/4278/video/b77a2a35b00908be6c6560a1b6d1360a4dddbf8a/"
+        ], 
+        "demo": null, 
+        "keywords": "music, player, qml, qt, audacious, keshav, kmusicplay, ubuntu music player, flac,alac, video to audio , lyrics, sqlite, ubuntu touch,lightmusic,", 
+        "video_urls": [
+            "http://vimeo.com/129456424"
+        ], 
+        "screenshot_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_14.png", 
+        "id": 4278, 
+        "archive_id": "commercial-ppa-uploaders/lightmusic", 
+        "support_url": "mailto:keshavnrj@gmail.com", 
+        "icon_url": "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/64.png", 
+        "binary_filesize": 356506, 
+        "version": "2.00", 
+        "company_name": "Ktechpit.org", 
+        "department": [
+            "Sound & Video"
+        ], 
+        "published_id": 1297, 
+        "tos_url": "", 
+        "screenshot_urls": [
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_14.png", 
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_10_25.png", 
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_11_02.png", 
+            "http://myapps.developer.ubuntu.com/site_media/appmedia/2015/06/Screenshot_from_2015-06-01_21_11_20.png"
+        ], 
+        "website": "http://www.armybharti.in/lightmusic_ubuntu_keshav_bhatt", 
+        "signing_key_id": "EC63D02697EDFFBE375BBC185CB9D8493D29D438", 
+        "description": "Beautiful and Fast Music Player for Ubuntu \nIf you are looking for a lightweight media player that couples capability with a tiny footprint, lightmusic can be choices that you may wish to take a look at.\r\nLightMusic  comes with interface that is clean and intuitive, since Music Player is almost done using QML it runs with tiny footprint on your system. LightMusic is quick to launch and keeps memory usage fairly low.\r\nDepending on how many songs you load into its library, the RAM requirements can hover close to the 75 MB cutoff that I use as one of the criteria for lightweight.\r\nIts a beta version of app and we are working hard to bring all essential features as soon as possible. \r\nIf you like the application , please feel free to share your view.\r\nThanks.", 
+        "price": "8", 
+        "debtags": [
+            "hardware::form-factor:pc"
+        ], 
+        "date_published": "2015-06-03 23:19:29.103975", 
+        "categories": "AudioVideo", 
+        "name": "LightMusic", 
+        "license": "Proprietary", 
+        "channel": "For Purchase", 
         "archive_root": "https://private-ppa.launchpad.net/"
     }, 
     {
