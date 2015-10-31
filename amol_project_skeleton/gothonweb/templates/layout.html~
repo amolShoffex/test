@@ -1,0 +1,14 @@
+$def with (content)
+
+<html>
+<head>
+    <title>Shoffex.com</title>
+</head>
+<body>
+<div style="width:100%; height:100px; background-color:#ff9935;">
+
+</div>
+$:content
+
+</body>
+</html>
